@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--Work around so the conditions work below-->
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+    <AssemblyName>Swap</AssemblyName>
+    <RootNamespace>Swap</RootNamespace>
+    <PackageId>Swap</PackageId>
+
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <AssemblyVersion>5.0.0.2083</AssemblyVersion>
+    <AssemblyFileVersion>5.0.0.2083</AssemblyFileVersion>
+    <Version>5.0.0.2083</Version>
+    <PackageVersion>5.0.0.2083</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>default</LangVersion>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <LangVersion>7.1</LangVersion>
+
+    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
+    <PackageReleaseNotes>
+
+    </PackageReleaseNotes>
+    <PackageTags>swap, swapimage, swapcontent, contentnavigator, navigator, imagenavigator, image navigator, content navigator, changeimage, change image, changecontent, change content, xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, LaavorRatingSwap, rating star, rating, swap, laavor</PackageTags>
+
+    <Title>Swap (Image, Label, Content Navigator, Image Navigator) for Xamarin (Android, iOS, UWP)</Title>
+    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Description>
+      Swap Image along with Swap Label makes it easy to replace texts and images without reloading the page, navigator image and content are an easy way to create a different navigation.
+    </Description>
+
+
+
+    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
+    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
+    <Copyright>Copyright 2022</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DebugType>pdbonly</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="**\*.shared.cs" />
+    <Compile Include="LaavorSwap\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2083" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>

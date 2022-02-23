@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--Work around so the conditions work below-->
+    <TargetFrameworks></TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+    <AssemblyName>TextBoxValidation</AssemblyName>
+    <RootNamespace>TextBoxValidation</RootNamespace>
+    <PackageId>TextBoxValidation</PackageId>
+
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <AssemblyVersion>5.0.0.2337</AssemblyVersion>
+    <AssemblyFileVersion>5.0.0.2337</AssemblyFileVersion>
+    <Version>5.0.0.2337</Version>
+    <PackageVersion>5.0.0.2337</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>default</LangVersion>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <LangVersion>7.1</LangVersion>
+
+    <!--TODO: Fill these in-->
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageIcon>Icon.png</PackageIcon>
+
+    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
+    <PackageReleaseNotes>
+      Update.
+    </PackageReleaseNotes>
+    <PackageTags>xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, LaavorTextBoxValidation, Numeric TextBox, EmailBox, Email Validation, Number Validation, Automatic Validation, Text Validation, Laavor</PackageTags>
+
+    <Title>Laavor TextBox Validation(Numeric, Email, Text) for Xamarin (Android, iOS, UWP) </Title>
+    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Description>
+      The component contains a versatile and easy-to-use validation, giving dynamism to your application, has a form that takes the auto validate components and enables the auto submit button when the data is valid. They can also be used independently for numbers, string and email. You can receive a label as a parameter to give messages to the user dynamically.
+    </Description>
+
+    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
+    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
+    <Copyright>Copyright 2022</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DebugType>pdbonly</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
+    <Compile Include="**\*.shared.cs" />
+    <Compile Include="Laavor\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Title</name>
+    </assembly>
+    <members>
+        <member name="T:LaavorTitle.ColorUI">
+            <summary>
+            Colors UI Laavor
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Black">
+            <summary>
+            Black Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Blue">
+            <summary>
+            Blue Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Gray">
+            <summary>
+            Gray Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Green">
+            <summary>
+            Green Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Red">
+            <summary>
+            Red Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Yellow">
+            <summary>
+            Yellow Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Orange">
+            <summary>
+            Orange Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Pink">
+            <summary>
+            Pink Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.White">
+            <summary>
+            White Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.BlueLight">
+            <summary>
+            BlueLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.YellowLight">
+            <summary>
+            YellowLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.GreenLight">
+            <summary>
+            GreenLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Brown">
+            <summary>
+            Brown
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Purple">
+            <summary>
+            Purple 
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Turquoise">
+            <summary>
+            Turquoise 
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.PinkLight">
+            <summary>
+            PinkLight 
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.BlueSky">
+            <summary>
+            BlueSky
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.GrayLight">
+            <summary>
+            GrayLight
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.RedLight">
+            <summary>
+            RedLight
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.OrangeLight">
+            <summary>
+            OrangeLight
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.YellowDark">
+            <summary>
+            YellowDark
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.GreenDark">
+            <summary>
+            GreenDark
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.BlueDark">
+            <summary>
+            BlueDark
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Aqua">
+            <summary>
+            Aqua
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.Tan">
+            <summary>
+            Tan
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.GreenDarkness">
+            <summary>
+            GreenDarkness
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.ColorUI.BlueViolet">
+            <summary>
+            BlueViolet
+            </summary>
+        </member>
+        <member name="T:LaavorTitle.DesignType">
+            <summary>
+            DesignTypeTitle
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.DesignType.Ribbon">
+            <summary>
+            Ribbon
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.DesignType.Traces">
+            <summary>
+            Traces
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.DesignType.Clouds">
+            <summary>
+            Clouds
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.DesignType.Geronimo">
+            <summary>
+            Geronimo
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.DesignType.Rectangles">
+            <summary>
+            Rectangles
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.DesignType.Timbre">
+            <summary>
+            Timbre
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.DesignType.Blocks">
+            <summary>
+            Blocks
+            </summary>
+        </member>
+        <member name="T:LaavorTitle.Position">
+            <summary>
+            Position
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.Position.Left">
+            <summary>
+            Left
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.Position.Right">
+            <summary>
+            Right
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.Position.Center">
+            <summary>
+            Center
+            </summary>
+        </member>
+        <member name="T:LaavorTitle.Title">
+            <summary>
+            Class Title
+            </summary>
+        </member>
+        <member name="M:LaavorTitle.Title.#ctor">
+            <summary>
+            Constructor of Title
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.ColorUI">
+            <summary>
+            Set if is ColorUI
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.DesignType">
+            <summary>
+            Set DesignType
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.Position">
+            <summary>
+            Set Position
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.Title.HeightProperty">
+            <summary>
+            Enter the height.
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.Height">
+            <summary>
+            Enter the height.
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.Title.HeightRequestProperty">
+            <summary>
+            Depracate.
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.HeightRequest">
+            <summary>
+            Deprecate.
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.Title.WidthProperty">
+            <summary>
+            Enter the width.
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.Width">
+            <summary>
+            Enter the width.
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.Title.WidthRequestProperty">
+            <summary>
+            Depracate.
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.WidthRequest">
+            <summary>
+            Deprecate.
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.Title.TextProperty">
+            <summary>
+            Enter the text
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.Text">
+            <summary>
+            Enter the text
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.Title.FontSizeProperty">
+            <summary>
+            Enter the font size of text button.
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.FontSize">
+            <summary>
+            Enter the font size of text button.
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.Title.TextColorProperty">
+            <summary>
+            Enter the text color.
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.TextColor">
+            <summary>
+            Enter the text color.
+            </summary>
+        </member>
+        <member name="F:LaavorTitle.Title.FontFamilyProperty">
+            <summary>
+            Enter the font family.
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.FontFamily">
+            <summary>
+            Enter the font family.
+            </summary>
+        </member>
+        <member name="P:LaavorTitle.Title.FontType">
+            <summary>
+            Enter the fonttype (None, Bold, Italic).
+            </summary>
+        </member>
+        <member name="T:LaavorTitle.TitleImage">
+            <summary>
+            TitleImage
+            </summary>
+        </member>
+        <member name="M:LaavorTitle.TitleImage.#ctor(System.String,LaavorTitle.DesignType,LaavorTitle.ColorUI,LaavorTitle.Position)">
+            <summary>
+            Constructor of TitleImage
+            </summary>
+            <param name="hash"></param>
+            <param name="color"></param>
+            <param name="designType"></param>
+            <param name="position"></param>
+        </member>
+        <member name="M:LaavorTitle.TitleImage.ChangeColor(System.String,LaavorTitle.ColorUI)">
+            <summary>
+            Change ColorUI of Button
+            </summary>
+            <param name="hash"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:LaavorTitle.TitleImage.ChangeDesignType(System.String,LaavorTitle.DesignType)">
+            <summary>
+            Change DesignType of Title
+            </summary>
+            <param name="hash"></param>
+            <param name="designType"></param>
+        </member>
+        <member name="M:LaavorTitle.TitleImage.ChangePosition(System.String,LaavorTitle.Position)">
+            <summary>
+            Change Position
+            </summary>
+            <param name="hash"></param>
+            <param name="position"></param>
+        </member>
+    </members>
+</doc>
