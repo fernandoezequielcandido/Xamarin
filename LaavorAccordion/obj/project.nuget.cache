@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rs/4k6Uel4Iyh5E2hanOteg6S5ATOXyoD+TiD8dsBO9accNHZtRTB8r58siiZ/sVk76N2VkVn9Y4CZIyetqUgQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\Compiled\\LaavorAccordion\\LaavorAccordion\\LaavorAccordion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\xamarin.forms\\4.0.0.425677\\xamarin.forms.4.0.0.425677.nupkg.sha512"
+  ],
+  "logs": []
+}

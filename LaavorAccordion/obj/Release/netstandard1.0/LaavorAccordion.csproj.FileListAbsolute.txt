@@ -1,0 +1,8 @@
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard1.0\LaavorAccordion.csproj.AssemblyReference.cache
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard1.0\AccordionConception.StampFilled.resources
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard1.0\AccordionConception.StampFit.resources
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard1.0\LaavorAccordion.csproj.GenerateResource.cache
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard1.0\LaavorAccordion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard1.0\LaavorAccordion.AssemblyInfoInputs.cache
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard1.0\LaavorAccordion.AssemblyInfo.cs
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard1.0\LaavorAccordion.csproj.CoreCompileInputs.cache

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AccordionConception</id>
+    <version>3.3.0</version>
+    <title>Laavor Accordion for Xamarin (Android, iOS, UWP)</title>
+    <authors>Fernando Ezequiel Candido, Laavor.com</authors>
+    <license type="file">License.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>Icon.png</icon>
+    <description>An easy accordion (navigation) with a unique and beautiful design. Easy to use and multi-colored title bars.</description>
+    <releaseNotes>Updated.</releaseNotes>
+    <copyright>Copyright 2022</copyright>
+    <tags>accordion, accordionConception, navigation, menu, xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, LaavorAccordion, LaavorNavigation, laavor accordion, laavor navigation</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Xamarin.Forms" version="3.0.0.446417" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.dll" target="lib\netstandard2.0\AccordionConception.dll" />
+    <file src="D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.xml" target="lib\netstandard2.0\AccordionConception.xml" />
+    <file src="D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\License.txt" target="License.txt" />
+    <file src="D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\Icon.png" target="\Icon.png" />
+  </files>
+</package>

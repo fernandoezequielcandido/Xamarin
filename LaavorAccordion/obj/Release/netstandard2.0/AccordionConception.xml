@@ -1,0 +1,475 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AccordionConception</name>
+    </assembly>
+    <members>
+        <member name="T:LaavorAccordion.Accordion">
+            <summary>
+            Class Accordion
+            </summary>
+        </member>
+        <member name="E:LaavorAccordion.Accordion.TitleClicked">
+            <summary>
+            Call when event TitleCliked
+            </summary>
+        </member>
+        <member name="E:LaavorAccordion.Accordion.TitleTouched">
+            <summary>
+            Call when event TitleTouched
+            </summary>
+        </member>
+        <member name="M:LaavorAccordion.Accordion.#ctor">
+            <summary>
+            Constructor of Accordion
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.Accordion.SelectedSectionValueProperty">
+            <summary>
+            SelectedSectionValue (Get, Set).
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.SelectedSectionValue">
+            <summary>
+            SelectedSectionValue (Get, SET).
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.Accordion.SelectedSectionTitleProperty">
+            <summary>
+            SelectedSectionText (Get, SET).
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.SelectedSectionTitle">
+            <summary>
+            SelectedSectionTitle (Get, SET).
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.Accordion.SelectedSectionIndexProperty">
+            <summary>
+            SelectedSectionIndex (Get, SET).
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.SelectedSectionIndex">
+            <summary>
+            SelectedSectionIndex (Get, SET).
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.TextColorTitle">
+            <summary>
+            Enter the title textcolor.
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.Accordion.FontSizeTitleProperty">
+            <summary>
+            Enter the font size of the title
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.FontSizeTitle">
+            <summary>
+            Enter the font size of the title
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.Accordion.FontFamilyTitleProperty">
+            <summary>
+            Enter the font family Title.
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.FontFamilyTitle">
+            <summary>
+            Enter the font family Title.
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.FontTypeTitle">
+            <summary>
+            Enter the fonttype title (None, Bold, Italic).
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.ColorUI">
+            <summary>
+            Set if is ColorUI
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.ContentColor">
+            <summary>
+            Set ContentColor
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.BorderContentColor">
+            <summary>
+            Set Boder Content Color
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.DesignType">
+            <summary>
+            Set DesignType
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.Accordion.WidthProperty">
+            <summary>
+            Enter the width Accordion.
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.Width">
+            <summary>
+            Enter the width Accordion.
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.Accordion.HeightBarTitleProperty">
+            <summary>
+            Enter the heightBarTitle
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.Accordion.HeightBarTitle">
+            <summary>
+            Enter the heightBarTitle.
+            </summary>
+        </member>
+        <member name="M:LaavorAccordion.Accordion.OnChildAdded(Xamarin.Forms.Element)">
+            <summary>
+            Internal.
+            </summary>
+        </member>
+        <member name="T:LaavorAccordion.BarAccordion">
+            <summary>
+            Class BarAccordion
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.BarAccordion.Index">
+            <summary>
+            Get Valur of Index
+            </summary>
+        </member>
+        <member name="M:LaavorAccordion.BarAccordion.#ctor(System.String,LaavorAccordion.DesignType,LaavorAccordion.ColorUI,System.Int32)">
+            <summary>
+            Constructor of BarAccordion
+            </summary>
+        </member>
+        <member name="M:LaavorAccordion.BarAccordion.ChangeColor(System.String,LaavorAccordion.ColorUI)">
+            <summary>
+            Change ColorUI of Button
+            </summary>
+            <param name="hash"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:LaavorAccordion.BarAccordion.ChangeDesignType(System.String,LaavorAccordion.DesignType)">
+            <summary>
+            Change DesignType od button
+            </summary>
+            <param name="hash"></param>
+            <param name="designType"></param>
+        </member>
+        <member name="T:LaavorAccordion.BarTitle">
+            <summary>
+            Class BarTitle
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.BarTitle.Index">
+            <summary>
+            Get Value of Index
+            </summary>
+        </member>
+        <member name="M:LaavorAccordion.BarTitle.#ctor">
+            <summary>
+            Constructor of BarTitle
+            </summary>
+        </member>
+        <member name="M:LaavorAccordion.BarTitle.SetIndex(System.String,System.Int32)">
+            <summary>
+            Set value of Index (Internal)
+            </summary>
+            <param name="key"></param>
+            <param name="indexValue"></param>
+        </member>
+        <member name="T:LaavorAccordion.LaavorBox">
+            <summary>
+            Class LaavorBox
+            </summary>
+        </member>
+        <member name="M:LaavorAccordion.LaavorBox.#ctor">
+            <summary>
+            Internal class, don't use can create errors.
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.LaavorBox.BorderColorProperty">
+            <summary>
+            Enter border color.
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.LaavorBox.BorderColor">
+            <summary>
+            Enter the border color.
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.LaavorBox.BorderProperty">
+            <summary>
+            Enter border color.
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.LaavorBox.Border">
+            <summary>
+            Enter the border.
+            </summary>
+        </member>
+        <member name="T:LaavorAccordion.ColorUI">
+            <summary>
+            Colors UI Laavor
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Black">
+            <summary>
+            Black Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Blue">
+            <summary>
+            Blue Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Gray">
+            <summary>
+            Gray Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Green">
+            <summary>
+            Green Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Red">
+            <summary>
+            Red Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Yellow">
+            <summary>
+            Yellow Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Orange">
+            <summary>
+            Orange Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Pink">
+            <summary>
+            Pink Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.White">
+            <summary>
+            White Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.BlueLight">
+            <summary>
+            BlueLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.YellowLight">
+            <summary>
+            YellowLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.GreenLight">
+            <summary>
+            GreenLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Brown">
+            <summary>
+            Brown
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Purple">
+            <summary>
+            Purple 
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Turquoise">
+            <summary>
+            Turquoise 
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.PinkLight">
+            <summary>
+            PinkLight 
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.BlueSky">
+            <summary>
+            BlueSky
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.GrayLight">
+            <summary>
+            GrayLight
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.RedLight">
+            <summary>
+            RedLight
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.OrangeLight">
+            <summary>
+            OrangeLight
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.YellowDark">
+            <summary>
+            YellowDark
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.GreenDark">
+            <summary>
+            GreenDark
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.BlueDark">
+            <summary>
+            BlueDark
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Aqua">
+            <summary>
+            Aqua
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Tan">
+            <summary>
+            Tan
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.GreenDarkness">
+            <summary>
+            GreenDarkness
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.BlueViolet">
+            <summary>
+            BlueViolet
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.ColorUI.Transparent">
+            <summary>
+            Transparent
+            </summary>
+        </member>
+        <member name="T:LaavorAccordion.DesignType">
+            <summary>
+            DesignType
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.DesignType.Standard">
+            <summary>
+            Standard 
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.DesignType.Shinning">
+            <summary>
+            Shinning
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.DesignType.Fit">
+            <summary>
+            Fit
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.DesignType.Filled">
+            <summary>
+            Filled
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.DesignType.Allonsy">
+            <summary>
+            Allonsy
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.DesignType.Scratches">
+            <summary>
+            Scratches
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.DesignType.Cadre">
+            <summary>
+            Cadre
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.DesignType.Smoke">
+            <summary>
+            Smoke
+            </summary>
+        </member>
+        <member name="T:LaavorAccordion.MergeBar">
+            <summary>
+            MergerBarClass
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.MergeBar.barAccordion">
+            <summary>
+            barAccordion as Image
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.MergeBar.barTitle">
+            <summary>
+            barTitel as Label
+            </summary>
+        </member>
+        <member name="T:LaavorAccordion.SectionContent">
+            <summary>
+            Class SectionContent works inside Accordion
+            </summary>
+        </member>
+        <member name="M:LaavorAccordion.SectionContent.#ctor">
+            <summary>
+            Constructor of SectionContent
+            </summary>
+        </member>
+        <member name="M:LaavorAccordion.SectionContent.SetContent(System.String)">
+            <summary>
+            Internal
+            </summary>
+            <param name="hash"></param>
+        </member>
+        <member name="F:LaavorAccordion.SectionContent.ContentProperty">
+            <summary>
+            Content.
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.SectionContent.Content">
+            <summary>
+            Content.
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.SectionContent.IsVisibleProperty">
+            <summary>
+            Content.
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.SectionContent.IsVisible">
+            <summary>
+            Content.
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.SectionContent.TitleProperty">
+            <summary>
+            Title.
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.SectionContent.Title">
+            <summary>
+            Title.
+            </summary>
+        </member>
+        <member name="F:LaavorAccordion.SectionContent.ValueProperty">
+            <summary>
+            Value.
+            </summary>
+        </member>
+        <member name="P:LaavorAccordion.SectionContent.Value">
+            <summary>
+            Value.
+            </summary>
+        </member>
+    </members>
+</doc>

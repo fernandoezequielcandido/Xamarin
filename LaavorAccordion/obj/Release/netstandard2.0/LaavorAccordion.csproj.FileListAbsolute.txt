@@ -1,0 +1,23 @@
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.deps.json
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.dll
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.pdb
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.xml
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\LaavorAccordion.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\LaavorAccordion.AssemblyInfoInputs.cache
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\LaavorAccordion.AssemblyInfo.cs
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\AccordionConception.dll
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\AccordionConception.xml
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\AccordionConception.pdb
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.deps.json
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.dll
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.pdb
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.xml
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\LaavorAccordion.csproj.CoreCompileInputs.cache
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\LaavorAccordion.AssemblyInfoInputs.cache
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\LaavorAccordion.AssemblyInfo.cs
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\AccordionConception.dll
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\AccordionConception.xml
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\AccordionConception.pdb
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\LaavorAccordion.csproj.AssemblyReference.cache
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\LaavorAccordion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\obj\Release\netstandard2.0\XamlC.stamp

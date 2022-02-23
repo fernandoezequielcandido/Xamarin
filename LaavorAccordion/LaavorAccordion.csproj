@@ -1,0 +1,78 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--Work around so the conditions work below-->
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+
+    <AssemblyName>AccordionConception</AssemblyName>
+    <RootNamespace>AccordionConception</RootNamespace>
+    <PackageId>AccordionConception</PackageId>
+
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <AssemblyVersion>3.6.3</AssemblyVersion>
+    <AssemblyFileVersion>3.6.3</AssemblyFileVersion>
+    <Version>3.6.3</Version>
+    <PackageVersion>3.6.3</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>default</LangVersion>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <LangVersion>7.1</LangVersion>
+
+    <!--TODO: Fill these in-->
+    
+    <PackageProjectUrl>https://github.com/laavor/Xamarin/blob/main/CandidoLaavor_Accordion.pdf</PackageProjectUrl>
+    <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
+
+
+    <PackageReleaseNotes>
+      Remove DesignType Tile, CurvedEdge, StampFit, StampFilled.
+    </PackageReleaseNotes>
+
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageIcon>Icon.png</PackageIcon>
+    
+    <PackageTags>Accordion, Xamarin</PackageTags>
+
+    <Title>Laavor Accordion Xamarin</Title>
+    <Summary>UI Controls Xamarin Forms</Summary>
+    <Description>
+      Accordion Xamarin
+    </Description>
+
+
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DebugType>pdbonly</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.425677" />
+    <Compile Include="**\*.shared.cs" />
+    <Compile Include="LaavorAccordion\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\Projetos\Compiled\License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="D:\Projetos\Compiled\Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

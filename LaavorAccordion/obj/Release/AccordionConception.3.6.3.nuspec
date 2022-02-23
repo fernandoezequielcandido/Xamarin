@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AccordionConception</id>
+    <version>3.6.3</version>
+    <title>Laavor Accordion Xamarin</title>
+    <authors>Fernando Ezequiel Candido</authors>
+    <license type="file">License.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://github.com/laavor/Xamarin/blob/main/CandidoLaavor_Accordion.pdf</projectUrl>
+    <description>Accordion Xamarin</description>
+    <releaseNotes>Remove DesignType Tile, CurvedEdge, StampFit, StampFilled.</releaseNotes>
+    <tags>Accordion, Xamarin</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Xamarin.Forms" version="4.0.0.425677" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.dll" target="lib\netstandard2.0\AccordionConception.dll" />
+    <file src="D:\Projetos\Compiled\LaavorAccordion\LaavorAccordion\bin\Release\netstandard2.0\AccordionConception.xml" target="lib\netstandard2.0\AccordionConception.xml" />
+    <file src="D:\Projetos\Compiled\License.txt" target="License.txt" />
+    <file src="D:\Projetos\Compiled\Icon.png" target="\Icon.png" />
+  </files>
+</package>
