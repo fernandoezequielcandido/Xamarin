@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ColoredBox</name>
+    </assembly>
+    <members>
+        <member name="T:LaavorColoredBox.ColoredBox">
+            <summary>
+            Class ColoredBox
+            </summary>
+        </member>
+        <member name="P:LaavorColoredBox.ColoredBox.LastTouchedIndex">
+            <summary>
+            Return the LastTouchedIndex
+            </summary>
+        </member>
+        <member name="E:LaavorColoredBox.ColoredBox.Touched">
+            <summary>
+            Event call when button is Touched
+            </summary>
+        </member>
+        <member name="M:LaavorColoredBox.ColoredBox.#ctor">
+            <summary>
+            Constructor of ColoredBox
+            </summary>
+        </member>
+        <member name="M:LaavorColoredBox.ColoredBox.Clear">
+            <summary>
+            Clear All Items
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColoredBox.HeightItemProperty">
+            <summary>
+            Enter the heightItem.
+            </summary>
+        </member>
+        <member name="P:LaavorColoredBox.ColoredBox.HeightItem">
+            <summary>
+            Enter the heightItem.
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColoredBox.UIDesignProperty">
+            <summary>
+            Enter the UIDesign.
+            </summary>
+        </member>
+        <member name="P:LaavorColoredBox.ColoredBox.UIDesign">
+            <summary>
+            Enter the UIDesign.
+            </summary>
+        </member>
+        <member name="P:LaavorColoredBox.ColoredBox.ColorUI">
+            <summary>
+            Set if is ColorUI
+            </summary>
+        </member>
+        <member name="M:LaavorColoredBox.ColoredBox.OnChildAdded(Xamarin.Forms.Element)">
+            <summary>
+            Internal.
+            </summary>
+        </member>
+        <member name="T:LaavorColoredBox.ColoredBoxContent">
+            <summary>
+            Class ColoredBoxContent
+            </summary>
+        </member>
+        <member name="P:LaavorColoredBox.ColoredBoxContent.Index">
+            <summary>
+            Return Index
+            </summary>
+        </member>
+        <member name="M:LaavorColoredBox.ColoredBoxContent.#ctor">
+            <summary>
+            Constructor of ColoredBoxContent
+            </summary>
+        </member>
+        <member name="M:LaavorColoredBox.ColoredBoxContent.SetIndex(System.String,System.Int32)">
+            <summary>
+            Set value of Index (Internal)
+            </summary>
+            <param name="key"></param>
+            <param name="indexValue"></param>
+        </member>
+        <member name="F:LaavorColoredBox.ColoredBoxContent.ContentProperty">
+            <summary>
+            Content.
+            </summary>
+        </member>
+        <member name="P:LaavorColoredBox.ColoredBoxContent.Content">
+            <summary>
+            Content.
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColoredBoxContent.IsVisibleProperty">
+            <summary>
+            Content.
+            </summary>
+        </member>
+        <member name="P:LaavorColoredBox.ColoredBoxContent.IsVisible">
+            <summary>
+            Content.
+            </summary>
+        </member>
+        <member name="T:LaavorColoredBox.ColoredBoxImage">
+            <summary>
+            Class ColoredBoxImage
+            </summary>
+        </member>
+        <member name="M:LaavorColoredBox.ColoredBoxImage.#ctor(System.String,LaavorColoredBox.ColorUI,LaavorColoredBox.UIDesign)">
+            <summary>
+            Constructor of BoxImage
+            </summary>
+            <param name="hash"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:LaavorColoredBox.ColoredBoxImage.ChangeColor(System.String,LaavorColoredBox.ColorUI)">
+            <summary>
+            ChnageColor
+            </summary>
+            <param name="hash"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:LaavorColoredBox.ColoredBoxImage.ChangeUIDesign(System.String,LaavorColoredBox.UIDesign)">
+            <summary>
+            ChnageColor
+            </summary>
+            <param name="hash"></param>
+            <param name="design"></param>
+        </member>
+        <member name="T:LaavorColoredBox.Item">
+            <summary>
+            Class Item
+            </summary>
+        </member>
+        <member name="P:LaavorColoredBox.Item.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:LaavorColoredBox.Item.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="T:LaavorColoredBox.ColorUI">
+            <summary>
+            Colors UI Laavor
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Black">
+            <summary>
+            Black Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Blue">
+            <summary>
+            Blue Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Gray">
+            <summary>
+            Gray Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Green">
+            <summary>
+            Green Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Red">
+            <summary>
+            Red Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Yellow">
+            <summary>
+            Yellow Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Orange">
+            <summary>
+            Orange Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Pink">
+            <summary>
+            Pink Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.White">
+            <summary>
+            White Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.BlueLight">
+            <summary>
+            BlueLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.YellowLight">
+            <summary>
+            YellowLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.GreenLight">
+            <summary>
+            GreenLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Brown">
+            <summary>
+            Brown
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Purple">
+            <summary>
+            Purple 
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Turquoise">
+            <summary>
+            Turquoise 
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.PinkLight">
+            <summary>
+            PinkLight 
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.BlueSky">
+            <summary>
+            BlueSky
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.RedLight">
+            <summary>
+            RedLight
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.GrayLight">
+            <summary>
+            GrayLight
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.OrangeLight">
+            <summary>
+            OrangeLight
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.YellowDark">
+            <summary>
+            YellowDark
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.GreenDark">
+            <summary>
+            GreenDark
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.BlueDark">
+            <summary>
+            BlueDark
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Aqua">
+            <summary>
+            Aqua
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.Tan">
+            <summary>
+            Tan
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.GreenDarkness">
+            <summary>
+            GreenDarkness
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.ColorUI.BlueViolet">
+            <summary>
+            BlueViolet
+            </summary>
+        </member>
+        <member name="T:LaavorColoredBox.UIDesign">
+            <summary>
+            UIDesign
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.UIDesign.Filled">
+            <summary>
+            Filled
+            </summary>
+        </member>
+        <member name="F:LaavorColoredBox.UIDesign.Blocks">
+            <summary>
+            Blocks
+            </summary>
+        </member>
+        <member name="T:LaavorColoredBox.LineImage">
+            <summary>
+            Class LineImage
+            </summary>
+        </member>
+        <member name="M:LaavorColoredBox.LineImage.#ctor(System.String)">
+            <summary>
+            Constructor of BoxImage
+            </summary>
+            <param name="hash"></param>
+        </member>
+    </members>
+</doc>

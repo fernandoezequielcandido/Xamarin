@@ -1,0 +1,23 @@
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorColoredBox\LaavorColoredBox\bin\Release\netstandard2.0\ColoredBox.deps.json
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorColoredBox\LaavorColoredBox\bin\Release\netstandard2.0\ColoredBox.dll
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorColoredBox\LaavorColoredBox\bin\Release\netstandard2.0\ColoredBox.pdb
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorColoredBox\LaavorColoredBox\bin\Release\netstandard2.0\ColoredBox.xml
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\LaavorColoredBox.csprojAssemblyReference.cache
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\LaavorColoredBox.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\LaavorColoredBox.AssemblyInfoInputs.cache
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\LaavorColoredBox.AssemblyInfo.cs
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\ColoredBox.dll
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\ColoredBox.xml
+C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\ColoredBox.pdb
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\bin\Release\netstandard2.0\ColoredBox.deps.json
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\bin\Release\netstandard2.0\ColoredBox.dll
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\bin\Release\netstandard2.0\ColoredBox.pdb
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\bin\Release\netstandard2.0\ColoredBox.xml
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\LaavorColoredBox.csproj.CoreCompileInputs.cache
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\LaavorColoredBox.AssemblyInfoInputs.cache
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\LaavorColoredBox.AssemblyInfo.cs
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\ColoredBox.dll
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\ColoredBox.xml
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\ColoredBox.pdb
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\LaavorColoredBox.csproj.AssemblyReference.cache
+D:\Projetos\Compiled\LaavorColoredBox\LaavorColoredBox\obj\Release\netstandard2.0\LaavorColoredBox.GeneratedMSBuildEditorConfig.editorconfig
