@@ -1,0 +1,71 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras/1.6.61">
+  <PropertyGroup>
+
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+
+    <AssemblyName>FlyingBox</AssemblyName>
+    <RootNamespace>FlyingBox</RootNamespace>
+    <PackageId>FlyingBox</PackageId>
+
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <AssemblyVersion>2.0.0</AssemblyVersion>
+    <AssemblyFileVersion>2.0.0</AssemblyFileVersion>
+    <Version>2.0.0</Version>
+    <PackageVersion>2.0.0</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>default</LangVersion>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <LangVersion>latest</LangVersion>
+
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageIcon>Icon.png</PackageIcon>
+    
+    <!--TODO: Fill these in-->
+    <PackageProjectUrl>https://github.com/laavor/Xamarin/blob/main/CandidoLaavor_FlyingBox.pdf</PackageProjectUrl>
+
+    <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
+    <PackageReleaseNotes>Update.</PackageReleaseNotes>
+    <PackageTags>FlyingBox PopUp</PackageTags>
+
+    <Title>Flying Box PopUp for Xamarin</Title>
+    <Summary>UI Controls for Xamarin Forms</Summary>
+    <Description>
+      Flying Box PopUp
+    </Description>
+
+
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DebugType>pdbonly</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
+    <Compile Include="**\*.shared.cs" />
+    <Compile Include="LaavorFlyingBox\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+  </ItemGroup>
+
+<ItemGroup>
+    <None Include="D:\Projetos\Compiled\License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="D:\Projetos\Compiled\Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,70 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras/2.0.29">
+
+  <PropertyGroup>
+
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+
+    <AssemblyName>FlyingIcon</AssemblyName>
+    <RootNamespace>FlyingIcon</RootNamespace>
+    <PackageId>FlyingIcon</PackageId>
+
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <AssemblyVersion>5.0.0.2337</AssemblyVersion>
+    <AssemblyFileVersion>5.0.0.2337</AssemblyFileVersion>
+    <Version>5.0.0.2337</Version>
+    <PackageVersion>5.0.0.2337</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>default</LangVersion>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageIcon>Icon.png</PackageIcon>
+    
+    <LangVersion>latest</LangVersion>
+    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
+    <PackageReleaseNotes></PackageReleaseNotes>
+    
+    <PackageTags>FlyingIcon, Icon, Flying Icon, FlyingIconLaavor, Laavor, Flying Icon Laavor, IconLaavor, Icon Laavor, Laavor Icon</PackageTags>
+
+    <Title>Laavor Flying Icon for Xamarin (Android, iOS, UWP)</Title>
+    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Description>
+      An easy and practical Flying Icon. Contains several properties.
+    </Description>
+
+
+    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
+    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
+    <Copyright>Copyright 2022</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DebugType>pdbonly</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
+    <Compile Include="**\*.shared.cs" />
+    <Compile Include="LaavorFlyingIcon\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>

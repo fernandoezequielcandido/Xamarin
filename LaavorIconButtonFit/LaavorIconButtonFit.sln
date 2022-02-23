@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaavorIconButtonFit", "LaavorIconButtonFit\LaavorIconButtonFit.csproj", "{A75CA036-EBA2-4B03-89F0-ECB2446E234C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A75CA036-EBA2-4B03-89F0-ECB2446E234C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75CA036-EBA2-4B03-89F0-ECB2446E234C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75CA036-EBA2-4B03-89F0-ECB2446E234C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75CA036-EBA2-4B03-89F0-ECB2446E234C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE20BBEF-EEAC-4FBB-87B5-85A6F7CE3384}
+	EndGlobalSection
+EndGlobal
