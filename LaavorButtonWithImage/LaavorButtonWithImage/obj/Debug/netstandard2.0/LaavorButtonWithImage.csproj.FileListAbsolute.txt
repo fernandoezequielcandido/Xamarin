@@ -1,9 +1,0 @@
-D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\bin\Debug\netstandard2.0\ButtonImage.deps.json
-D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\bin\Debug\netstandard2.0\ButtonImage.dll
-D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\bin\Debug\netstandard2.0\ButtonImage.pdb
-D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\obj\Debug\netstandard2.0\LaavorButtonWithImage.csprojAssemblyReference.cache
-D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\obj\Debug\netstandard2.0\LaavorButtonWithImage.csproj.CoreCompileInputs.cache
-D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\obj\Debug\netstandard2.0\LaavorButtonWithImage.AssemblyInfoInputs.cache
-D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\obj\Debug\netstandard2.0\LaavorButtonWithImage.AssemblyInfo.cs
-D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\obj\Debug\netstandard2.0\ButtonImage.dll
-D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\obj\Debug\netstandard2.0\ButtonImage.pdb
