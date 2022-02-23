@@ -1,0 +1,122 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--Work around so the conditions work below-->
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+    <AssemblyName>InputWithLabel</AssemblyName>
+    <RootNamespace>InputWithLabel</RootNamespace>
+    <PackageId>InputWithLabel</PackageId>
+    
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <AssemblyVersion>5.0.0.2337</AssemblyVersion>
+    <AssemblyFileVersion>5.0.0.2337</AssemblyFileVersion>
+    <Version>5.0.0.2337</Version>
+    <PackageVersion>5.0.0.2337</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>default</LangVersion>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+    
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <LangVersion>7.1</LangVersion>
+
+    
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageIcon>Icon.png</PackageIcon>
+
+    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
+    <PackageReleaseNotes>
+
+    </PackageReleaseNotes>
+
+    <PackageTags>
+      textbox, textboxlabel, textbox with label, textboxlabel, inputlabel, inputwithlabel, input,  input with label, textbox xamarin, inputxamarin, inputwithlabelxamarin, xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, LaavorTextbox, LaavorInput, inputLaavor, Laavor
+    </PackageTags>
+
+    <Title>InputWithLabel for Xamarin (Android, iOS, UWP)</Title>
+    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Description>
+      An easy and practical InputWithLabel with a unique functionality. Contains several properties ColorUI in Left and Right labels, Width, Height and anothers.
+    </Description>
+
+
+
+    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
+    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
+    <Copyright>Copyright 2022</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DebugType>pdbonly</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="**\*.shared.cs" />
+    <Compile Include="LaavorInputWithLabel\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Cadre.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Cadre.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CurvedEdge.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CurvedEdge.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Scratches.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Scratches.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tile.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Tile.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Cadre.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Cadre.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CurvedEdge.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CurvedEdge.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Scratches.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Scratches.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Tile.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Tile.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

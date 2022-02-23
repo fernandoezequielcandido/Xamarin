@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>NoRegex</AssemblyName>
+    <RootNamespace>NoRegex</RootNamespace>
+    <PackageId>NoRegex</PackageId>
+
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <AssemblyVersion>2.2.0</AssemblyVersion>
+    <AssemblyFileVersion>2.2.0</AssemblyFileVersion>
+    <Version>2.2.0</Version>
+    <PackageVersion>2.2.0</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>default</LangVersion>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageIcon>Icon.png</PackageIcon>
+    
+    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+
+    <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
+    <PackageReleaseNotes>
+     
+</PackageReleaseNotes>
+    <PackageTags>Validation, Validation .Net, Regex, RegEx, Validation Xamarin, Validation MVC .Net, Validation ASP.Net (Aspx), Validation WPF, WPF, MVC, .Net</PackageTags>
+    <Title>NoRegex Validation</Title>
+    <Summary>NoRegex for .Net</Summary>
+    <Description>
+      Validation easy and simple to use, with single classes you define what you need in a string.
+    </Description>
+
+
+
+    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
+    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
+    <Copyright>Copyright 2022</Copyright>
+    
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

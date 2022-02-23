@@ -1,0 +1,76 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras/1.6.61">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+    <AssemblyName>RatingConception</AssemblyName>
+    <RootNamespace>RatingConception</RootNamespace>
+    <PackageId>RatingConception</PackageId>
+
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <AssemblyVersion>1.5.1</AssemblyVersion>
+    <AssemblyFileVersion>1.5.1</AssemblyFileVersion>
+    <Version>1.5.1</Version>
+    <PackageVersion>1.5.1</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>default</LangVersion>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <LangVersion>7.1</LangVersion>
+
+    <!--TODO: Fill these in-->
+
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageIcon>Icon.png</PackageIcon>
+
+    <PackageProjectUrl>https://github.com/laavor/Xamarin/blob/main/CandidoLaavor_RatingConception.pdf</PackageProjectUrl>
+    <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
+    <PackageReleaseNotes>
+		Removed the DesignType to give greater stability, serves only as an example as possible product, if necessary use RatingImage
+	</PackageReleaseNotes>
+    <PackageTags>Rating Xamarin</PackageTags>
+
+    <Title>Rating Xamarin</Title>
+    <Summary>UI Controls for Xamarin Forms</Summary>
+    <Description>
+      Rating with default images (Star, Heart)
+    </Description>
+
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DebugType>pdbonly</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.425677" />
+    <Compile Include="**\*.shared.cs" />
+    <Compile Include="LaavorRatingConception\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="LaavorRatingConception\RatingItemImage.cs~RF93aa92f.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\Projetos\Compiled\License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="D:\Projetos\Compiled\Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
