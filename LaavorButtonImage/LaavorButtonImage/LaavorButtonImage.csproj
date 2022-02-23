@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--Work around so the conditions work below-->
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+    <AssemblyName>ButtonImage</AssemblyName>
+    <RootNamespace>ButtonImage</RootNamespace>
+    <PackageId>ButtonImage</PackageId>
+    
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <AssemblyVersion>2.7.5</AssemblyVersion>
+    <AssemblyFileVersion>2.7.5</AssemblyFileVersion>
+    <Version>2.7.5</Version>
+    <PackageVersion>2.7.5</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>default</LangVersion>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+    
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <LangVersion>7.1</LangVersion>
+
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageIcon>Icon.png</PackageIcon>
+        
+    <PackageProjectUrl>https://github.com/laavor/Xamarin/blob/main/CandidoLaavor_ButtonImage.pdf</PackageProjectUrl>
+    <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
+    <PackageReleaseNotes>
+      Correction of the description.
+    </PackageReleaseNotes>
+    
+    <PackageTags>Button Image Xamarin</PackageTags>
+    <Title>Button Image Xamarin</Title>
+    <Summary>UI Controls to Xamarin</Summary>
+    <Description>
+      Button Image.
+    </Description>
+
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DebugType>pdbonly</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.425677" />
+    <Compile Include="**\*.shared.cs" />
+    <Compile Include="LaavorButtonImage\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\Projetos\Compiled\License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="D:\Projetos\Compiled\Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+  </ItemGroup>
+</Project>

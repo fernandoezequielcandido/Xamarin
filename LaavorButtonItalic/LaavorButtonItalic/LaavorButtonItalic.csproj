@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--Work around so the conditions work below-->
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+    <AssemblyName>ButtonItalic</AssemblyName>
+    <RootNamespace>ButtonItalic</RootNamespace>
+    <PackageId>ButtonItalic</PackageId>
+
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <AssemblyVersion>5.0.0.2337</AssemblyVersion>
+    <AssemblyFileVersion>5.0.0.2337</AssemblyFileVersion>
+    <Version>5.0.0.2337</Version>
+    <PackageVersion>5.0.0.2337</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>default</LangVersion>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <LangVersion>7.1</LangVersion>
+
+    <!--TODO: Fill these in-->
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageIcon>Icon.png</PackageIcon>
+
+    <PackageProjectUrl>https://github.com/laavor/Xamarin</PackageProjectUrl>
+    <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
+    <PackageReleaseNotes>
+      - Correction of the description
+    </PackageReleaseNotes>
+
+    <PackageTags>Button Xamarin</PackageTags>
+
+    <Title>Button Box Xamarin</Title>
+    <Summary>UI Controls for Xamarin Forms</Summary>
+    <Description>
+      Button Xamarin with auto size
+    </Description>
+
+
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright>Copyright 2022</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DebugType>pdbonly</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
+    <Compile Include="**\*.shared.cs" />
+    <Compile Include="LaavorButtonItalic\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\Projetos\Compiled\License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="D:\Projetos\Compiled\Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

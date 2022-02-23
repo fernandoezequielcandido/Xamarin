@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ButtonImage</id>
+    <version>2.7.4</version>
+    <title>Button Image Xamarin</title>
+    <authors>Fernando Ezequiel Candido</authors>
+    <license type="file">License.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://github.com/laavor/Xamarin/blob/main/CandidoLaavor_ButtonImage.pdf</projectUrl>
+    <description>Button Image.</description>
+    <releaseNotes>Correction of the description.</releaseNotes>
+    <tags>Button Image Xamarin</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Xamarin.Forms" version="5.0.0.2337" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\bin\Release\netstandard2.0\ButtonImage.dll" target="lib\netstandard2.0\ButtonImage.dll" />
+    <file src="D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\bin\Release\netstandard2.0\ButtonImage.xml" target="lib\netstandard2.0\ButtonImage.xml" />
+    <file src="D:\Projetos\Compiled\License.txt" target="License.txt" />
+    <file src="D:\Projetos\Compiled\Icon.png" target="\Icon.png" />
+  </files>
+</package>

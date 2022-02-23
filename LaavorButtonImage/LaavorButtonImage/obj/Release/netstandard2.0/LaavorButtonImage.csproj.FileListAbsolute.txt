@@ -1,0 +1,13 @@
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\bin\Release\netstandard2.0\ButtonImage.deps.json
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\bin\Release\netstandard2.0\ButtonImage.dll
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\bin\Release\netstandard2.0\ButtonImage.pdb
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\bin\Release\netstandard2.0\ButtonImage.xml
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\obj\Release\netstandard2.0\LaavorButtonImage.csproj.CoreCompileInputs.cache
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\obj\Release\netstandard2.0\LaavorButtonImage.AssemblyInfoInputs.cache
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\obj\Release\netstandard2.0\LaavorButtonImage.AssemblyInfo.cs
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\obj\Release\netstandard2.0\ButtonImage.dll
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\obj\Release\netstandard2.0\ButtonImage.xml
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\obj\Release\netstandard2.0\ButtonImage.pdb
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\obj\Release\netstandard2.0\LaavorButtonImage.csproj.AssemblyReference.cache
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\obj\Release\netstandard2.0\LaavorButtonImage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Compiled\LaavorButtonImage\LaavorButtonImage\obj\Release\netstandard2.0\XamlC.stamp

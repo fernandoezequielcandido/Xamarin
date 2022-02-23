@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8sJbu6V8614EbYItXSpoaGsqT//Hhe3DWAa7fxfAO0gUSayV6+IzhrophrRkr1MLbzDL30Yrn1SxYL5GaIA/nw==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\Compiled\\LaavorButtonImage\\LaavorButtonImage\\LaavorButtonImage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\xamarin.forms\\4.0.0.425677\\xamarin.forms.4.0.0.425677.nupkg.sha512"
+  ],
+  "logs": []
+}

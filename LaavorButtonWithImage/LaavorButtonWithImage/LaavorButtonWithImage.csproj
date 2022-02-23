@@ -1,0 +1,83 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras/1.6.61">
+
+  <PropertyGroup>
+    <!--Work around so the conditions work below-->
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+    <AssemblyName>ButtonWithImage</AssemblyName>
+    <RootNamespace>ButtonWithImage</RootNamespace>
+    <PackageId>ButtonWithImage</PackageId>
+
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <AssemblyVersion>1.2.0</AssemblyVersion>
+    <AssemblyFileVersion>1.2.0</AssemblyFileVersion>
+    <Version>1.2.0</Version>
+    <PackageVersion>1.2.0</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>default</LangVersion>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <LangVersion>7.1</LangVersion>
+
+    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <SupportUrl>http://laavor.com/</SupportUrl>
+    <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
+
+
+    <PackageReleaseNotes>
+      - Correction in version numbering, fixed an error that prevented it from working properly in Visual Studio 2017. Built-in adjustment in color generation. Add Depth Small. Add VivacitySpeed LessSlow. Add Vivacity Down, Left, Right, Rotation. DesignType Standardization.
+    </PackageReleaseNotes>
+
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageIcon>Icon.png</PackageIcon>
+    
+    <PackageTags>button, buttonxamarin, button xamarin, buttonwithimage, button with image, xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, LaavorButton, image button, imagebutton</PackageTags>
+    <Title>Button With Image for Xamarin (Android, iOS, UWP) </Title>
+    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Description>
+      Easy to use with an internal icon of your choice. Contains several properties.
+    </Description>
+
+
+  <Owners>Fernando Ezequiel Candido, Laavor</Owners>
+    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
+    <Copyright>Copyright 2022</Copyright>    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DebugType>pdbonly</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
+    <Compile Include="**\*.shared.cs" />
+    <Compile Include="LaavorButtonWithImage\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </None>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>

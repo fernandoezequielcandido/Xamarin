@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ButtonWithImage</id>
+    <version>1.2.0</version>
+    <title>Button With Image for Xamarin (Android, iOS, UWP)</title>
+    <authors>Fernando Ezequiel Candido, Laavor.com</authors>
+    <owners>Fernando Ezequiel Candido, Laavor.com</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">License.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <description>Easy to use with an internal icon of your choice. Contains several properties.</description>
+    <releaseNotes>- Correction in version numbering, fixed an error that prevented it from working properly in Visual Studio 2017. Built-in adjustment in color generation. Add Depth Small. Add VivacitySpeed LessSlow. Add Vivacity Down, Left, Right, Rotation. DesignType Standardization.</releaseNotes>
+    <copyright>Copyright 2022</copyright>
+    <tags>button, buttonxamarin, button xamarin, buttonwithimage, button with image, xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, LaavorButton, image button, imagebutton</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Xamarin.Forms" version="3.0.0.446417" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\bin\Release\netstandard2.0\ButtonWithImage.dll" target="lib\netstandard2.0\ButtonWithImage.dll" />
+    <file src="D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\bin\Release\netstandard2.0\ButtonWithImage.xml" target="lib\netstandard2.0\ButtonWithImage.xml" />
+    <file src="D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\License.txt" target="License.txt" />
+    <file src="D:\Projetos\Compiled\LaavorButtonWithImage\LaavorButtonWithImage\Icon.png" target="\Icon.png" />
+  </files>
+</package>

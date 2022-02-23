@@ -1,0 +1,10 @@
+D:\Projetos\Compiled\LaavorButtonItalic\LaavorButtonItalic\bin\Debug\netstandard2.0\ButtonItalic.deps.json
+D:\Projetos\Compiled\LaavorButtonItalic\LaavorButtonItalic\bin\Debug\netstandard2.0\ButtonItalic.dll
+D:\Projetos\Compiled\LaavorButtonItalic\LaavorButtonItalic\bin\Debug\netstandard2.0\ButtonItalic.pdb
+D:\Projetos\Compiled\LaavorButtonItalic\LaavorButtonItalic\obj\Debug\netstandard2.0\LaavorButtonItalic.csproj.CoreCompileInputs.cache
+D:\Projetos\Compiled\LaavorButtonItalic\LaavorButtonItalic\obj\Debug\netstandard2.0\LaavorButtonItalic.AssemblyInfoInputs.cache
+D:\Projetos\Compiled\LaavorButtonItalic\LaavorButtonItalic\obj\Debug\netstandard2.0\LaavorButtonItalic.AssemblyInfo.cs
+D:\Projetos\Compiled\LaavorButtonItalic\LaavorButtonItalic\obj\Debug\netstandard2.0\ButtonItalic.dll
+D:\Projetos\Compiled\LaavorButtonItalic\LaavorButtonItalic\obj\Debug\netstandard2.0\ButtonItalic.pdb
+D:\Projetos\Compiled\LaavorButtonItalic\LaavorButtonItalic\obj\Debug\netstandard2.0\LaavorButtonItalic.csproj.AssemblyReference.cache
+D:\Projetos\Compiled\LaavorButtonItalic\LaavorButtonItalic\obj\Debug\netstandard2.0\LaavorButtonItalic.GeneratedMSBuildEditorConfig.editorconfig
