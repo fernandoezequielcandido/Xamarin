@@ -1,9 +1,0 @@
-C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorTitle\LaavorTitle\bin\Debug\netstandard2.0\Title.deps.json
-C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorTitle\LaavorTitle\bin\Debug\netstandard2.0\Title.dll
-C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorTitle\LaavorTitle\bin\Debug\netstandard2.0\Title.pdb
-C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorTitle\LaavorTitle\obj\Debug\netstandard2.0\LaavorTitle.csprojAssemblyReference.cache
-C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorTitle\LaavorTitle\obj\Debug\netstandard2.0\LaavorTitle.csproj.CoreCompileInputs.cache
-C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorTitle\LaavorTitle\obj\Debug\netstandard2.0\LaavorTitle.AssemblyInfoInputs.cache
-C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorTitle\LaavorTitle\obj\Debug\netstandard2.0\LaavorTitle.AssemblyInfo.cs
-C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorTitle\LaavorTitle\obj\Debug\netstandard2.0\Title.dll
-C:\Users\ferna\OneDrive\Projetos\Xamarim Compiled Base\LaavorTitle\LaavorTitle\obj\Debug\netstandard2.0\Title.pdb
