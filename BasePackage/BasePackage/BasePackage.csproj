@@ -1,0 +1,695 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Arrows\" />
+    <Folder Include="Checks\" />
+    <Folder Include="Inquiry\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Arrows\ArrowsAllonsy.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrowsAllonsy.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Arrows\ArrowsCadre.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrowsCadre.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Arrows\ArrowsFilled.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrowsFilled.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Arrows\ArrowsFit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrowsFit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Arrows\ArrowsScratches.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrowsScratches.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Arrows\ArrowsShinning.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrowsShinning.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Arrows\ArrowsSmoke.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrowsSmoke.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Base\BaseAllonsy.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BaseAllonsy.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Base\BaseCadre.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BaseCadre.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Base\BaseFilled.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BaseFilled.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Base\BaseFit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BaseFit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Base\BaseScratches.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BaseScratches.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Base\BaseShinning.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BaseShinning.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Base\BaseSmoke.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BaseSmoke.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Checks\CheckAllonsy.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckAllonsy.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Checks\CheckCadre.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckCadre.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Checks\CheckFilled.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckFilled.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Checks\CheckFit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckFit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Checks\CheckScratches.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckScratches.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Checks\CheckShinning.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckShinning.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Checks\CheckSmoke.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckSmoke.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Closes\CloseAllonsy.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CloseAllonsy.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Closes\CloseCadre.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CloseCadre.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Closes\CloseFilled.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CloseFilled.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Closes\CloseFit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CloseFit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Closes\CloseScratches.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CloseScratches.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Closes\CloseShinning.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CloseShinning.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Closes\CloseSmoke.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CloseSmoke.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Expander\ExpanderAllonsy.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ExpanderAllonsy.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Expander\ExpanderCadre.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ExpanderCadre.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Expander\ExpanderFilled.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ExpanderFilled.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Expander\ExpanderFit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ExpanderFit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Expander\ExpanderScratches.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ExpanderScratches.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Expander\ExpanderShinning.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ExpanderShinning.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Expander\ExpanderSmoke.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ExpanderSmoke.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\ArrowDown.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrowDown.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\ArrowLeft.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrowLeft.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\ArrowRight.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrowRight.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\ArrowUp.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrowUp.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Box.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Box.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Configuration.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Configuration.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Copy.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Copy.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Cut.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Cut.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Edit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Edit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Eye.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Eye.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Flag.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Flag.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Heart.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Heart.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\IconKeyboard.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>IconKeyboard.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Like.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Like.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Mail.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Mail.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Paste.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Paste.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Pencil.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Pencil.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Person.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Person.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Plus.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Plus.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Question.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Question.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\SearchLeft.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SearchLeft.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Share.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Share.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Sphere.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Sphere.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Star.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Star.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Icons\Subtraction.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Subtraction.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Radios\RadioAllonsy.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RadioAllonsy.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Radios\RadioCadre.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RadioCadre.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Radios\RadioFilled.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RadioFilled.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Radios\RadioFit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RadioFit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Radios\RadioScratches.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RadioScratches.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Radios\RadioShinning.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RadioShinning.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Radios\RadioSmoke.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RadioSmoke.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Switches\SwitchAllonsy.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SwitchAllonsy.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Switches\SwitchCadre.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SwitchCadre.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Switches\SwitchFilled.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SwitchFilled.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Switches\SwitchFit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SwitchFit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Switches\SwitchScratches.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SwitchScratches.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Switches\SwitchShinning.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SwitchShinning.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Switches\SwitchSmoke.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SwitchSmoke.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Arrows\ArrowsAllonsy.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrowsAllonsy.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Arrows\ArrowsCadre.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrowsCadre.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Arrows\ArrowsFilled.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrowsFilled.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Arrows\ArrowsFit.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrowsFit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Arrows\ArrowsScratches.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrowsScratches.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Arrows\ArrowsShinning.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrowsShinning.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Arrows\ArrowsSmoke.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrowsSmoke.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Base\BaseAllonsy.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BaseAllonsy.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Base\BaseCadre.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BaseCadre.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Base\BaseFilled.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BaseFilled.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Base\BaseFit.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BaseFit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Base\BaseScratches.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BaseScratches.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Base\BaseShinning.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BaseShinning.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Base\BaseSmoke.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BaseSmoke.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Checks\CheckAllonsy.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CheckAllonsy.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Checks\CheckCadre.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CheckCadre.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Checks\CheckFilled.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CheckFilled.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Checks\CheckFit.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CheckFit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Checks\CheckScratches.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CheckScratches.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Checks\CheckShinning.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CheckShinning.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Checks\CheckSmoke.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CheckSmoke.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Closes\CloseAllonsy.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CloseAllonsy.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Closes\CloseCadre.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CloseCadre.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Closes\CloseFilled.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CloseFilled.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Closes\CloseFit.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CloseFit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Closes\CloseScratches.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CloseScratches.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Closes\CloseShinning.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CloseShinning.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Closes\CloseSmoke.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CloseSmoke.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Expander\ExpanderAllonsy.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExpanderAllonsy.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Expander\ExpanderCadre.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExpanderCadre.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Expander\ExpanderFilled.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExpanderFilled.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Expander\ExpanderFit.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExpanderFit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Expander\ExpanderScratches.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExpanderScratches.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Expander\ExpanderShinning.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExpanderShinning.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Expander\ExpanderSmoke.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExpanderSmoke.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\ArrowDown.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrowDown.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\ArrowLeft.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrowLeft.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\ArrowRight.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrowRight.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\ArrowUp.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrowUp.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Box.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Box.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Configuration.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Configuration.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Copy.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Copy.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Cut.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Cut.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Edit.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Edit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Eye.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Eye.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Flag.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Flag.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Heart.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Heart.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\IconKeyboard.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>IconKeyboard.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Like.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Like.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Mail.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Mail.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Paste.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Paste.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Pencil.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Pencil.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Person.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Person.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Plus.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Plus.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Question.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Question.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\SearchLeft.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SearchLeft.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Share.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Share.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Sphere.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Sphere.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Star.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Star.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Icons\Subtraction.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Subtraction.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Radios\RadioAllonsy.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RadioAllonsy.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Radios\RadioCadre.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RadioCadre.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Radios\RadioFilled.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RadioFilled.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Radios\RadioFit.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RadioFit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Radios\RadioScratches.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RadioScratches.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Radios\RadioShinning.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RadioShinning.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Radios\RadioSmoke.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RadioSmoke.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Switches\SwitchAllonsy.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SwitchAllonsy.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Switches\SwitchCadre.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SwitchCadre.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Switches\SwitchFilled.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SwitchFilled.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Switches\SwitchFit.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SwitchFit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Switches\SwitchScratches.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SwitchScratches.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Switches\SwitchShinning.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SwitchShinning.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Switches\SwitchSmoke.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SwitchSmoke.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

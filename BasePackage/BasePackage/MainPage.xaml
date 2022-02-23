@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:lv="clr-namespace:Laavor.Buttons"
+             xmlns:lvIQ="clr-namespace:Laavor.Inquiry"
+             xmlns:lvSw="clr-namespace:Laavor.Swap"
+             xmlns:lvCI="clr-namespace:Laavor.Choice"
+             xmlns:lvF="clr-namespace:Laavor.Flying"
+             xmlns:lvG="clr-namespace:Laavor.Group"
+             xmlns:lvGrap="clr-namespace:Laavor.Graphics"
+             x:Class="BasePackage.MainPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <lv:ButtonDesign x:Name="btnYogi" Text="Yogi Bear" DesignType="Allonsy" ColorUI="Turquoise"  />
+                
+                <!--<lvG:Expander Width="200" ColorUI="Black" Title="Laavor">
+                    <lvG:ExpanderContent>
+                        <Label FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold">
+                            Black
+                        </Label>
+                    </lvG:ExpanderContent>
+                </lvG:Expander>
+
+                <lvG:ExpanderImage Width="220" ImageClose="blackclose.png" ImageOpen="blackopen.png" Title="Laavor">
+                    <lvG:ExpanderContent>
+                        <Label FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold">
+                            Black
+                        </Label>
+                    </lvG:ExpanderContent>
+                </lvG:ExpanderImage>-->
+
+
+                <!--<lvIQ:SwitchContentDual Margin="5,10,5,0" Height="250" Width="250" >
+                    <lvIQ:SwitchContentItem>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                                <Image Source="RangerSmith.png" WidthRequest="100" HeightRequest="150" />
+                                <Label LineBreakMode="WordWrap" VerticalTextAlignment="Center">
+                                    A former US Army soldier, he is the serious and stern authority figure in Jellystone Park, in contrast to the antics of the troublesome Yogi, and he greatly disapproves of Yogi's picnic basket thievery, mainly because it repels parkgoers and creates a lot of extra work for him.
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvIQ:SwitchContentItem>
+                    <lvIQ:SwitchContentItem>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Image Source="dick.jpg" WidthRequest="100" HeightRequest="150" />
+                                <Label LineBreakMode="WordWrap" VerticalTextAlignment="Center">
+                                    Dick Dastardly is a fictional character and antagonist who appeared in various animated series by Hanna-Barbera Productions from 1968 onward.
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvIQ:SwitchContentItem>
+                </lvIQ:SwitchContentDual>
+
+                <lvIQ:SwitchContent Margin="5,10,5,0" Height="200" Width="250" >
+                    <lvIQ:SwitchContentItem>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                                <Image Source="RangerSmith.png" WidthRequest="100" HeightRequest="150" />
+                                <Label LineBreakMode="WordWrap" VerticalTextAlignment="Center">
+                                    A former US Army soldier, he is the serious and stern authority figure in Jellystone Park, in contrast to the antics of the troublesome Yogi, and he greatly disapproves of Yogi's picnic basket thievery, mainly because it repels parkgoers and creates a lot of extra work for him.
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvIQ:SwitchContentItem>
+                </lvIQ:SwitchContent>-->
+
+                <!--<lvG:Sail x:Name="navigatorAbout" ContentWidth="250" ContentHeight="340" DesignType="Shinning"  ColorUI="Black" BorderColor="Green" >
+                    <lvG:SailItem>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                                <Image Source="RangerSmith.png" WidthRequest="100" HeightRequest="150" />
+                                <Label LineBreakMode="WordWrap" VerticalTextAlignment="Center">
+                                    A former US Army soldier, he is the serious and stern authority figure in Jellystone Park, in contrast to the antics of the troublesome Yogi, and he greatly disapproves of Yogi's picnic basket thievery, mainly because it repels parkgoers and creates a lot of extra work for him.
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:SailItem>
+                    <lvG:SailItem>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Image Source="dick.jpg" WidthRequest="100" HeightRequest="150" />
+                                <Label LineBreakMode="WordWrap" VerticalTextAlignment="Center">
+                                    Dick Dastardly is a fictional character and antagonist who appeared in various animated series by Hanna-Barbera Productions from 1968 onward.
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:SailItem>
+                </lvG:Sail>
+
+                <lvIQ:DoubleList TitleChosen="Chosen" TitleUnChosen="UnChosen" WidthArrow="40" HeightArrow="40"
+                     Vivacity="Decrease" Depth="Large"
+                    
+                  
+                        FontTypeItems="Italic" FontSizeItems="20"   >
+                    <lvIQ:InquiryListItem Text="Tentei0" Value="0" />
+                    <lvIQ:InquiryListItem Text="Tentei1" Value="1" />
+                    <lvIQ:InquiryListItem Text="Tentei2" Value="2" />
+                    <lvIQ:InquiryListItem Text="Tentei3" Value="3" />
+                    <lvIQ:InquiryListItem Text="Tentei4" Value="4" />
+                    <lvIQ:InquiryListItem Text="Tentei5" Value="5" />
+                    <lvIQ:InquiryListItem Text="Tentei6" Value="6" />
+                    <lvIQ:InquiryListItem Text="Tentei7" Value="7" />
+                </lvIQ:DoubleList>-->
+                
+                <!--<lvG:Accordion>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <BoxView Margin="15,15,15,15" />
+                </lvG:Accordion>
+
+                <lvG:AccordionImage Image="purple.png">
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <BoxView Margin="15,15,15,15" />
+                </lvG:AccordionImage>
+
+
+                <lvG:GroupBox Width="200" ColorUI="Black" Title="Laavor">
+                    <lvG:GroupBoxContent>
+                        <Label FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold">
+                            Black
+                        </Label>
+                    </lvG:GroupBoxContent>
+                </lvG:GroupBox>
+
+                <lvG:GroupBoxImage Width="200" Image="purple.png" Title="Laavor">
+                    <lvG:GroupBoxContent>
+                        <Label FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold">
+                            Image
+                        </Label>
+                    </lvG:GroupBoxContent>
+                </lvG:GroupBoxImage>
+
+                <lvG:Collapse Width="200" ColorUI="Black" Title="Laavor">
+                    <lvG:CollapseContent>
+                        <Label FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold">
+                            Black
+                        </Label>
+                    </lvG:CollapseContent>
+                </lvG:Collapse>
+
+                <lvG:CollapseImage Width="220" ImageClose="blackclose.png" ImageOpen="blackopen.png" Title="Laavor">
+                    <lvG:CollapseContent>
+                        <Label FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold">
+                            Black
+                        </Label>
+                    </lvG:CollapseContent>
+                </lvG:CollapseImage>-->
+                
+                <!--<lvIQ:CheckBox ColorUI="Black" Text="Black" DesignType="Shinning" Margin="8" />
+
+                <lvIQ:RadioButton ColorUI="Blue" DesignType="Cadre" TextColor="Orange" Vivacity="Decrease" TouchType="WithText">
+                    <lvIQ:InquiryRadioItem Text="Blue" />
+                    <lvIQ:InquiryRadioItem Text="2" />
+                </lvIQ:RadioButton>
+
+                <lvIQ:Switch ColorUI="Blue" Text="Blue" DesignType="Smoke" Margin="8" />
+
+
+                <lvIQ:CheckBoxImage Text="Black" ImageChecked="checked.png" ImageUnChecked="unchecked.png" Margin="8" />
+
+                <lvIQ:RadioButtonImage  TextColor="Orange" Vivacity="Decrease" TouchType="WithText" ImageChosen="red.png" ImageUnChosen="redunchosen.png">
+                    <lvIQ:InquiryRadioItem Text="Blue" />
+                    <lvIQ:InquiryRadioItem Text="2" />
+                </lvIQ:RadioButtonImage>
+
+                <lvIQ:SwitchImage Text="Black" ImageOn="brown.png" ImageOff="dt.png" Margin="8" />-->
+                
+                <!--<StackLayout>
+                    <lvSw:SwapImage  ImageHeight="560" ImageWidth="350" >
+                        <lvSw:SwapImageItem Image="escot2.jpg" Value="One">
+                            <lvSw:SwapImageItemContent Position="RightBottom" >
+                                <StackLayout>
+                                    <Label Text="THE HIGHLANDS" FontSize="50" TextColor="White" FontAttributes="Bold" />
+                                    <Label Text="The Highlands really is the Scotland of your imagination. Think big skies, mind-blowing landscapes, superb food and hospitable people - and you've got the Scottish Highlands. There's a natural playground which begs to be explored, while the region's turbulent history has left behind some of the most beautiful and romantic castles in the world." FontSize="Small" TextColor="White" HorizontalTextAlignment="Center"  />
+                                </StackLayout>
+                            </lvSw:SwapImageItemContent>
+                        </lvSw:SwapImageItem>
+
+                        <lvSw:SwapImageItem Image="loch_ness.jpg" Value="Two">
+                            <lvSw:SwapImageItemContent Position="RightTop">
+                                <StackLayout BackgroundColor="White" WidthRequest="200">
+                                    <Label Text="Loch Ness is one of Scotland's largest and most famous lochs, known around the world thanks to its elusive monster Nessie." FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Center" />
+                                </StackLayout>
+                            </lvSw:SwapImageItemContent>
+                        </lvSw:SwapImageItem>
+
+                        <lvSw:SwapImageItem Image="glenfinnan_viaduct.jpg" Value="Three">
+                            <lvSw:SwapImageItemContent Position="CenterTop">
+                                <StackLayout BackgroundColor="Black" WidthRequest="300">
+                                    <Label Text="The Glenfinnan Viaduct is a railway viaduct on the West Highland Line in Glenfinnan, Inverness-shire, Scotland. Located at the top of Loch Shiel in the West Highlands of Scotland, the viaduct overlooks the Glenfinnan Monument and the waters of Loch Shiel." FontSize="Medium" TextColor="White" HorizontalTextAlignment="Center" />
+                                </StackLayout>
+                            </lvSw:SwapImageItemContent>
+                        </lvSw:SwapImageItem>
+
+                        <lvSw:SwapImageItem Image="Eilean_Donan_Castle.jpg" Value="Four">
+                            <lvSw:SwapImageItemContent Position="RightBottom">
+                                <StackLayout  WidthRequest="220">
+                                    <Label Text="Eilean Donan Castle is one of the most recognised castles in Scotland, and probably appears on more shortbread tins and calendars than any other." FontSize="Medium" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                                </StackLayout>
+                            </lvSw:SwapImageItemContent>
+                        </lvSw:SwapImageItem>
+
+                        <lvSw:SwapImageItem Image="ben.jpg" Value="Five">
+                            <lvSw:SwapImageItemContent Position="CenterBottom">
+                                <StackLayout  WidthRequest="180">
+                                    <Label Text="But Ben Nevis is the king of them all. In the north west Highlands, near the town of Fort William and part of the Grampian Mountain range, the famous peak attracts 125k walkers a year." FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                                </StackLayout>
+                            </lvSw:SwapImageItemContent>
+                        </lvSw:SwapImageItem>
+                    </lvSw:SwapImage>
+                </StackLayout>
+
+               <StackLayout>
+                    <lvSw:SwapSlotImage x:Name="sli" ImageHeight="190" ImageWidth="113" SpaceBetween="5" >
+                        <lvSw:SwapSlotContent Value="Rocket">
+                            <lvSw:SwapSlotContentImage Value="Loc1" Image="locomotion.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Loc2" Image="locomotive.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Loc3" Image="ft_71.gif" />
+                            <lvSw:SwapSlotContentImage Value="Loc4" Image="Kil.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Loc5" Image="stephenson.jpg" />
+                        </lvSw:SwapSlotContent>
+
+                        <lvSw:SwapSlotContent Value="Ladder">
+                            <lvSw:SwapSlotContentImage Value="Ladd1" Image="one.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Ladd2" Image="Hausbuch.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Ladd3" Image="ladder.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Ladd4" Image="Maias.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Ladd5" Image="piramide.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Ladd6" Image="pyra.jpg" />
+                        </lvSw:SwapSlotContent>
+
+                        <lvSw:SwapSlotContent Value="Discovery">
+                            <lvSw:SwapSlotContentImage Value="Discov1" Image="Discovery.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Discov2" Image="ft_89.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Discov3" Image="james.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Discov4" Image="mw.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Discov5" Image="Shackleton.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Discov6" Image="ship.jpg" />
+                        </lvSw:SwapSlotContent>
+                    </lvSw:SwapSlotImage>
+                </StackLayout>-->
+
+                <!--<lv:ButtonDesign x:Name="btnYogi" Text="Yogi Bear" DesignType="Allonsy" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Cadre" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Filled" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Fit" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Scratches" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Shinning" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Smoke" ColorUI="Turquoise" />
+
+                <lv:ButtonBox Margin="0,35,0,10" Text="Funciona" Vivacity="Jump" Depth="LessMedium" FontSize="25" />
+                <lv:ButtonBox Margin="0,35,0,10" Text="Funciona" ColorUI="OrangeLight" TextColor="White" FontSize="15" Vivacity="Decrease" Depth="Medium"  />
+
+                <lv:ButtonWithImage ColorUI="Black" Width="80" DesignType="Scratches" Image="usb"  Text="Save" Margin="0,25,0,0" />
+                <lv:ButtonWithImage ColorUI="BlueViolet" Width="80" DesignType="Cadre" Image="drive"  Text="Save" Margin="0,25,0,0" />
+                <lv:ButtonWithImage ColorUI="Black" Width="80" DesignType="Fit" Image="gear"  Text="Save" Margin="0,25,0,0" />
+
+                <lv:ButtonDefaultImage Width="150" Text="Laavor" ColorUI="BlueSky" ColorUIImage="Black" IconType="Person" />
+
+                <Label Text="Aqua" />
+                <lv:ButtonIcon IconType="Person"  ColorUI="Aqua" Vivacity="Jump" />-->
+
+                
+                <!--<lvCI:PickImageLot x:Name="cImage"  Width="300" ImageSourceField="Name" ListItems="{Binding .}" SpaceBetween="15"  WidthImage="100" HeightImage="100" ChoiceOrientation="Horizontal" Vivacity="Jump" ColorUI="BlueViolet" >
+                </lvCI:PickImageLot>
+
+                <lvCI:PickImage WidthImage="80" HeightImage="80" Width="300"  ChoiceOrientation="Horizontal" ColorUI="Yellow">
+                    <lvCI:PickImageItem  Image="CasparDavidFriedrich.jpg" />
+                    <lvCI:PickImageItem Image="LeonardodaVinci.jpg" />
+                    <lvCI:PickImageItem Image="Monet.jpg" />
+                    <lvCI:PickImageItem Image="PieterBruegel.jpg" />
+                    <lvCI:PickImageItem Value="" Image="Rafael.png" />
+                    <lvCI:PickImageItem Value="" Image="Ticiano.jpg" />
+                    <lvCI:PickImageItem  Value="" Image="VanGogh.jpg" />
+                </lvCI:PickImage>
+
+                <lvCI:PickImageSwapLot Vivacity="Rotation" SpaceBetween="0" WidthImage="40" HeightImage="40" Width="255">
+                    <lvCI:PickImageSwapItem ImageUnChosen="Monday.png" ImageChosen="MondaySelected.png"  />
+                    <lvCI:PickImageSwapItem ImageUnChosen="Tuesday.png" ImageChosen="TuesdaySelected.png" />
+                    <lvCI:PickImageSwapItem ImageUnChosen="Wednesday.png" ImageChosen="WednesdaySelected.png" />
+                    <lvCI:PickImageSwapItem ImageUnChosen="Thursday.png" ImageChosen="ThursdaySelected.png"  />
+                    <lvCI:PickImageSwapItem ImageUnChosen="Friday.png" ImageChosen="FridaySelected.png" />
+                    <lvCI:PickImageSwapItem ImageUnChosen="Saturday.png" ImageChosen="SaturdaySelected.png" />
+                    <lvCI:PickImageSwapItem ImageUnChosen="Sunday.png" ImageChosen="SundaySelected.png"  />
+                </lvCI:PickImageSwapLot>
+
+                <lvCI:PickImageSwap Vivacity="Increase" SpaceBetween="15" WidthImage="40" HeightImage="40" Width="210">
+                    <lvCI:PickImageSwapItem ImageUnChosen="Monday.png" ImageChosen="MondaySelected.png"  />
+                    <lvCI:PickImageSwapItem ImageUnChosen="Tuesday.png" ImageChosen="TuesdaySelected.png" />
+                    <lvCI:PickImageSwapItem ImageUnChosen="Wednesday.png" ImageChosen="WednesdaySelected.png" />
+                    <lvCI:PickImageSwapItem ImageUnChosen="Thursday.png" ImageChosen="ThursdaySelected.png"  />
+                </lvCI:PickImageSwap>-->
+
+                <!--<lv:ButtonImage Margin="15,10,15,0" Image="gear.png" Width="65" Vivacity="Rotation" Depth="Large" Height="75" FontType="Italic" TextColor="Blue" Text="T" />
+                <lv:ButtonDesign x:Name="btnYogi" Text="Yogi Bear" DesignType="Allonsy" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Cadre" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Filled" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Fit" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Scratches" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Shinning" ColorUI="Turquoise" />
+                <lv:ButtonDesign  Text="Yogi Bear" DesignType="Smoke" ColorUI="Turquoise" />
+
+                <lv:ButtonBox Margin="0,35,0,10" Text="Funciona" Vivacity="Jump" Depth="LessMedium" FontSize="25" />
+                <lv:ButtonBox Margin="0,35,0,10" Text="Funciona" ColorUI="OrangeLight" TextColor="White" FontSize="15" Vivacity="Decrease" Depth="Medium"  />
+
+                <lv:ButtonWithImage ColorUI="Black" Width="80" DesignType="Scratches" Image="usb"  Text="Save" Margin="0,25,0,0" />
+                <lv:ButtonWithImage ColorUI="BlueViolet" Width="80" DesignType="Cadre" Image="drive"  Text="Save" Margin="0,25,0,0" />
+                <lv:ButtonWithImage ColorUI="Black" Width="80" DesignType="Fit" Image="gear"  Text="Save" Margin="0,25,0,0" />
+
+                <lv:ButtonDefaultImage Width="150" Text="Laavor" ColorUI="BlueSky" ColorUIImage="Black" IconType="Person" />
+
+                <Label Text="Aqua" />
+                <lv:ButtonIcon IconType="Person"  ColorUI="Aqua" Vivacity="Jump" />
+
+                <lvSw:SwapText Width="280" FontSize="50" FontType="Bold" TextColor="Blue" >
+                    <lvSw:SwapTextItem Text="First"  TextColor="Aqua" BorderColor="Aqua" ColorUI="Brown" Value="l_1" />
+                    <lvSw:SwapTextItem Text="Second" TextColor="Black" BorderColor="Black"  ColorUI="Yellow" Value="l_2" />
+                    <lvSw:SwapTextItem Text="Third" TextColor="Blue" BorderColor="Blue" Value="l_3" />
+                    <lvSw:SwapTextItem Text="Fourth" TextColor="BlueDark" BorderColor="BlueDark" />
+                    <lvSw:SwapTextItem Text="5" TextColor="BlueLight" BorderColor="BlueLight" />
+                    <lvSw:SwapTextItem Text="6" TextColor="BlueSky" BorderColor="BlueSky"  />
+                    <lvSw:SwapTextItem Text="7" TextColor="BlueViolet" BorderColor="BlueViolet" />
+                    <lvSw:SwapTextItem Text="8" TextColor="Brown" BorderColor="Brown" />
+                    <lvSw:SwapTextItem Text="9" TextColor="Gray" BorderColor="Gray" />
+                    <lvSw:SwapTextItem Text="10" TextColor="GrayLight" BorderColor="GrayLight"  />
+                    <lvSw:SwapTextItem Text="11" TextColor="Green" BorderColor="Green" />
+                    <lvSw:SwapTextItem Text="12" TextColor="GreenDark" BorderColor="GreenDark" />
+                    <lvSw:SwapTextItem Text="13" TextColor="GreenDarkness" BorderColor="GreenDarkness" />
+                    <lvSw:SwapTextItem Text="14" TextColor="GreenLight" BorderColor="GreenLight"  />
+                    <lvSw:SwapTextItem Text="15" TextColor="Orange" BorderColor="Orange" />
+                    <lvSw:SwapTextItem Text="16" TextColor="OrangeLight" BorderColor="OrangeLight" />
+                    <lvSw:SwapTextItem Text="18" TextColor="Pink" BorderColor="Pink" />
+                    <lvSw:SwapTextItem Text="19" TextColor="PinkLight" BorderColor="PinkLight"  />
+                    <lvSw:SwapTextItem Text="20" TextColor="Purple" BorderColor="Purple" />
+                    <lvSw:SwapTextItem Text="21" TextColor="Red" BorderColor="Red" />
+                </lvSw:SwapText>-->
+
+                <!--<StackLayout>
+                    <lvSw:SwapImage  ImageHeight="560" ImageWidth="350" >
+                        <lvSw:SwapImageItem Image="escot2.jpg" Value="One">
+                            <lvSw:SwapImageItemContent Position="RightBottom" >
+                                <StackLayout>
+                                    <Label Text="THE HIGHLANDS" FontSize="50" TextColor="White" FontAttributes="Bold" />
+                                    <Label Text="The Highlands really is the Scotland of your imagination. Think big skies, mind-blowing landscapes, superb food and hospitable people - and you've got the Scottish Highlands. There's a natural playground which begs to be explored, while the region's turbulent history has left behind some of the most beautiful and romantic castles in the world." FontSize="Small" TextColor="White" HorizontalTextAlignment="Center"  />
+                                </StackLayout>
+                            </lvSw:SwapImageItemContent>
+                        </lvSw:SwapImageItem>
+
+                        <lvSw:SwapImageItem Image="loch_ness.jpg" Value="Two">
+                            <lvSw:SwapImageItemContent Position="RightTop">
+                                <StackLayout BackgroundColor="White" WidthRequest="200">
+                                    <Label Text="Loch Ness is one of Scotland's largest and most famous lochs, known around the world thanks to its elusive monster Nessie." FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Center" />
+                                </StackLayout>
+                            </lvSw:SwapImageItemContent>
+                        </lvSw:SwapImageItem>
+
+                        <lvSw:SwapImageItem Image="glenfinnan_viaduct.jpg" Value="Three">
+                            <lvSw:SwapImageItemContent Position="CenterTop">
+                                <StackLayout BackgroundColor="Black" WidthRequest="300">
+                                    <Label Text="The Glenfinnan Viaduct is a railway viaduct on the West Highland Line in Glenfinnan, Inverness-shire, Scotland. Located at the top of Loch Shiel in the West Highlands of Scotland, the viaduct overlooks the Glenfinnan Monument and the waters of Loch Shiel." FontSize="Medium" TextColor="White" HorizontalTextAlignment="Center" />
+                                </StackLayout>
+                            </lvSw:SwapImageItemContent>
+                        </lvSw:SwapImageItem>
+
+                        <lvSw:SwapImageItem Image="Eilean_Donan_Castle.jpg" Value="Four">
+                            <lvSw:SwapImageItemContent Position="RightBottom">
+                                <StackLayout  WidthRequest="220">
+                                    <Label Text="Eilean Donan Castle is one of the most recognised castles in Scotland, and probably appears on more shortbread tins and calendars than any other." FontSize="Medium" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                                </StackLayout>
+                            </lvSw:SwapImageItemContent>
+                        </lvSw:SwapImageItem>
+
+                        <lvSw:SwapImageItem Image="ben.jpg" Value="Five">
+                            <lvSw:SwapImageItemContent Position="CenterBottom">
+                                <StackLayout  WidthRequest="180">
+                                    <Label Text="But Ben Nevis is the king of them all. In the north west Highlands, near the town of Fort William and part of the Grampian Mountain range, the famous peak attracts 125k walkers a year." FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                                </StackLayout>
+                            </lvSw:SwapImageItemContent>
+                        </lvSw:SwapImageItem>
+                    </lvSw:SwapImage>
+                </StackLayout>-->
+
+                <!--<StackLayout>
+                    <lvSw:SwapSlotImage x:Name="sli" ImageHeight="190" ImageWidth="113" SpaceBetween="5" >
+                        <lvSw:SwapSlotContent Value="Rocket">
+                            <lvSw:SwapSlotContentImage Value="Loc1" Image="locomotion.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Loc2" Image="locomotive.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Loc3" Image="ft_71.gif" />
+                            <lvSw:SwapSlotContentImage Value="Loc4" Image="Kil.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Loc5" Image="stephenson.jpg" />
+                        </lvSw:SwapSlotContent>
+
+                        <lvSw:SwapSlotContent Value="Ladder">
+                            <lvSw:SwapSlotContentImage Value="Ladd1" Image="one.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Ladd2" Image="Hausbuch.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Ladd3" Image="ladder.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Ladd4" Image="Maias.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Ladd5" Image="piramide.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Ladd6" Image="pyra.jpg" />
+                        </lvSw:SwapSlotContent>
+
+                        <lvSw:SwapSlotContent Value="Discovery">
+                            <lvSw:SwapSlotContentImage Value="Discov1" Image="Discovery.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Discov2" Image="ft_89.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Discov3" Image="james.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Discov4" Image="mw.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Discov5" Image="Shackleton.jpg" />
+                            <lvSw:SwapSlotContentImage Value="Discov6" Image="ship.jpg" />
+                        </lvSw:SwapSlotContent>
+                    </lvSw:SwapSlotImage>
+                </StackLayout>-->
+
+
+    
+
+                <!--<StackLayout BackgroundColor="Black" WidthRequest="290">
+
+                    <lvCI:PickText Vivacity="Right" VivacitySpeed="Fast" Width="280" HeightBox="45" FontType="Bold" TextColorChosen="Blue" TextColorUnChosen="Black" BorderColorChosen="Aqua" BorderColorUnChosen="BlueViolet" 
+                        SpaceBetween="15"     ColorUIChosen="Yellow" ColorUIUnChosen="Gray" FontSize="25" WidthBox="180"  >
+                        <lvCI:PickTextItem Text="Tentei0rrrrrr" Value="0" />
+                        <lvCI:PickTextItem Text="Tentei1" Value="1" />
+                        <lvCI:PickTextItem Text="Tentei2" Value="2" />
+                        <lvCI:PickTextItem Text="Tentei3" Value="3" />
+                        <lvCI:PickTextItem Text="Tentei4" Value="4" />
+                        <lvCI:PickTextItem Text="Tentei5" Value="5" />
+                        <lvCI:PickTextItem Text="Tentei6" Value="6" />
+                        <lvCI:PickTextItem Text="Tentei7" Value="7" />
+                        <lvCI:PickTextItem Text="Tentei8" Value="8" />
+                    </lvCI:PickText>
+
+                    <lvCI:PickTextLot TextColorUnChosen="Brown" HeightBox="50" WidthBox="85" Width="320" ColorUIChosen="Blue" TextColorChosen="White" SpaceBetween="15">
+                        <lvCI:PickTextItem Text="Fernando"  />
+                        <lvCI:PickTextItem Text="Ezequiel" />
+                        <lvCI:PickTextItem Text="Name" />
+                        <lvCI:PickTextItem Text="Rock" />
+                        <lvCI:PickTextItem Text="3" />
+                        <lvCI:PickTextItem Text="7" />
+                        <lvCI:PickTextItem Text="1" />
+                    </lvCI:PickTextLot>
+
+                    <lvCI:PickTextSwap TextColorUnChosen="Brown" HeightBox="50" WidthBox="85" Width="320" ColorUIChosen="Blue" TextColorChosen="White" ColorUIUnChosen="Yellow" SpaceBetween="15">
+                        <lvCI:PickTextSwapItem TextUnChosen="One" TextChosen="-"  />
+                        <lvCI:PickTextSwapItem TextUnChosen="Two" TextChosen="-" />
+                        <lvCI:PickTextSwapItem TextUnChosen="Three" TextChosen="-" />
+                        <lvCI:PickTextSwapItem TextUnChosen="Four" TextChosen="-" />
+                        <lvCI:PickTextSwapItem TextUnChosen="Five" TextChosen="-" />
+                        <lvCI:PickTextSwapItem TextUnChosen="Six" TextChosen="-" />
+                        <lvCI:PickTextSwapItem TextUnChosen="Seven" TextChosen="-" />
+                    </lvCI:PickTextSwap>
+
+                    <lvCI:PickTextSwapLot TextColorUnChosen="Brown" HeightBox="50" WidthBox="85" Width="320" ColorUIChosen="Blue" TextColorChosen="White" ColorUIUnChosen="Yellow" SpaceBetween="15">
+                        <lvCI:PickTextSwapItem TextUnChosen="One" TextChosen="-"  />
+                        <lvCI:PickTextSwapItem TextUnChosen="Two" TextChosen="-" />
+                        <lvCI:PickTextSwapItem TextUnChosen="Three" TextChosen="-" />
+                        <lvCI:PickTextSwapItem TextUnChosen="Four" TextChosen="-" />
+                        <lvCI:PickTextSwapItem TextUnChosen="Five" TextChosen="-" />
+                        <lvCI:PickTextSwapItem TextUnChosen="Six" TextChosen="-" />
+                        <lvCI:PickTextSwapItem TextUnChosen="Seven" TextChosen="-" />
+                    </lvCI:PickTextSwapLot>
+                </StackLayout>-->
+
+                <!--
+
+
+                <lvIQ:CheckBox ColorUI="Black" Text="Black" DesignType="Shinning" Margin="8" />
+
+                <lvIQ:RadioButton ColorUI="Blue" DesignType="Cadre" TextColor="Orange" Vivacity="Decrease" TouchType="WithText">
+                    <lvIQ:InquiryRadioItem Text="Blue" />
+                    <lvIQ:InquiryRadioItem Text="2" />
+                </lvIQ:RadioButton>
+
+                <lvIQ:Switch ColorUI="Blue" Text="Blue" DesignType="Smoke" Margin="8" />
+
+
+                <lvIQ:CheckBoxImage Text="Black" ImageChecked="checked.png" ImageUnChecked="unchecked.png" Margin="8" />
+
+                <lvIQ:RadioButtonImage  TextColor="Orange" Vivacity="Decrease" TouchType="WithText" ImageChosen="red.png" ImageUnChosen="redunchosen.png">
+                    <lvIQ:InquiryRadioItem Text="Blue" />
+                    <lvIQ:InquiryRadioItem Text="2" />
+                </lvIQ:RadioButtonImage>
+
+                <lvIQ:SwitchImage Text="Black" ImageOn="brown.png" ImageOff="dt.png" Margin="8" />
+
+                <lvG:Accordion>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <BoxView Margin="15,15,15,15" />
+                </lvG:Accordion>
+
+                <lvG:AccordionImage Image="purple.png">
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <lvG:AccordionSection Title="Florence and the Machine" Value="florence">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label>
+                                    BlueDark
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:AccordionSection>
+                    <BoxView Margin="15,15,15,15" />
+                </lvG:AccordionImage>
+
+
+                <lvG:GroupBox Width="200" ColorUI="Black" Title="Laavor">
+                    <lvG:GroupBoxContent>
+                        <Label FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold">
+                            Black
+                        </Label>
+                    </lvG:GroupBoxContent>
+                </lvG:GroupBox>
+
+                <lvG:GroupBoxImage Width="200" Image="purple.png" Title="Laavor">
+                    <lvG:GroupBoxContent>
+                        <Label FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold">
+                            Image
+                        </Label>
+                    </lvG:GroupBoxContent>
+                </lvG:GroupBoxImage>
+
+                <lvG:Collapse Width="200" ColorUI="Black" Title="Laavor">
+                    <lvG:CollapseContent>
+                        <Label FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold">
+                            Black
+                        </Label>
+                    </lvG:CollapseContent>
+                </lvG:Collapse>
+
+                <lvG:CollapseImage Width="220" ImageClose="blackclose.png" ImageOpen="blackopen.png" Title="Laavor">
+                    <lvG:CollapseContent>
+                        <Label FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold">
+                            Black
+                        </Label>
+                    </lvG:CollapseContent>
+                </lvG:CollapseImage>
+
+
+                <lvG:Sail x:Name="navigatorAbout" ContentWidth="250" ContentHeight="340" DesignType="Shinning"  ColorUI="Black" BorderColor="Green" >
+                    <lvG:SailItem>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                                <Image Source="RangerSmith.png" WidthRequest="100" HeightRequest="150" />
+                                <Label LineBreakMode="WordWrap" VerticalTextAlignment="Center">
+                                    A former US Army soldier, he is the serious and stern authority figure in Jellystone Park, in contrast to the antics of the troublesome Yogi, and he greatly disapproves of Yogi's picnic basket thievery, mainly because it repels parkgoers and creates a lot of extra work for him.
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:SailItem>
+                    <lvG:SailItem>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Image Source="dick.jpg" WidthRequest="100" HeightRequest="150" />
+                                <Label LineBreakMode="WordWrap" VerticalTextAlignment="Center">
+                                    Dick Dastardly is a fictional character and antagonist who appeared in various animated series by Hanna-Barbera Productions from 1968 onward.
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvG:SailItem>
+                </lvG:Sail>
+
+                <lvIQ:DoubleList TitleChosen="Chosen" TitleUnChosen="UnChosen" WidthArrow="40" HeightArrow="40"
+                     Vivacity="Decrease" Depth="Large"
+                    
+                  
+                        FontTypeItems="Italic" FontSizeItems="20"   >
+                    <lvIQ:InquiryListItem Text="Tentei0" Value="0" />
+                    <lvIQ:InquiryListItem Text="Tentei1" Value="1" />
+                    <lvIQ:InquiryListItem Text="Tentei2" Value="2" />
+                    <lvIQ:InquiryListItem Text="Tentei3" Value="3" />
+                    <lvIQ:InquiryListItem Text="Tentei4" Value="4" />
+                    <lvIQ:InquiryListItem Text="Tentei5" Value="5" />
+                    <lvIQ:InquiryListItem Text="Tentei6" Value="6" />
+                    <lvIQ:InquiryListItem Text="Tentei7" Value="7" />
+                </lvIQ:DoubleList>
+
+                <lvIQ:SwitchContentDual Margin="5,10,5,0" Height="250" Width="250" >
+                    <lvIQ:SwitchContentItem>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                                <Image Source="RangerSmith.png" WidthRequest="100" HeightRequest="150" />
+                                <Label LineBreakMode="WordWrap" VerticalTextAlignment="Center">
+                                    A former US Army soldier, he is the serious and stern authority figure in Jellystone Park, in contrast to the antics of the troublesome Yogi, and he greatly disapproves of Yogi's picnic basket thievery, mainly because it repels parkgoers and creates a lot of extra work for him.
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvIQ:SwitchContentItem>
+                    <lvIQ:SwitchContentItem>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Image Source="dick.jpg" WidthRequest="100" HeightRequest="150" />
+                                <Label LineBreakMode="WordWrap" VerticalTextAlignment="Center">
+                                    Dick Dastardly is a fictional character and antagonist who appeared in various animated series by Hanna-Barbera Productions from 1968 onward.
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvIQ:SwitchContentItem>
+                </lvIQ:SwitchContentDual>
+
+                <lvIQ:SwitchContent Margin="5,10,5,0" Height="200" Width="250" >
+                    <lvIQ:SwitchContentItem>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                                <Image Source="RangerSmith.png" WidthRequest="100" HeightRequest="150" />
+                                <Label LineBreakMode="WordWrap" VerticalTextAlignment="Center">
+                                    A former US Army soldier, he is the serious and stern authority figure in Jellystone Park, in contrast to the antics of the troublesome Yogi, and he greatly disapproves of Yogi's picnic basket thievery, mainly because it repels parkgoers and creates a lot of extra work for him.
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </lvIQ:SwitchContentItem>
+                </lvIQ:SwitchContent>-->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
