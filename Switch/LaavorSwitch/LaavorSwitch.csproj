@@ -26,17 +26,17 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>Icon.png</PackageIcon>
     
-    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes>
     
     </PackageReleaseNotes>
     
-    <PackageTags>Switch, Toggle, Switch Colors, Toggle Colors, ios, android, uwp, xamarin.forms, plugin, LaavorToggle, LaavorSwitch, Laavor</PackageTags>
-    <Title>Switch Touch Laavor for Xamarin (Android, iOS, UWP) </Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <PackageTags>Switch Toggle</PackageTags>
+    <Title>Switch Touch Laavor for Xamarin</Title>
+    <Summary>UI Controls Xamarin Forms</Summary>
     <Description>
-      A beautiful, elegant and easy-to-use Switch(Toggle) with incredible convenience, with multiple colors in title available.
+      Switch Toggle
     </Description>
 
     <Owners>Fernando Ezequiel Candido, Laavor</Owners>

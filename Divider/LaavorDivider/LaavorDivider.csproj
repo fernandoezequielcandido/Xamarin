@@ -34,18 +34,18 @@
     </PackageReleaseNotes>
   
     <PackageTags>
-      Divider, separator, spacer, separating, parting, DividerSideText, DividerText, Divider Text, Divider Side Text, partition, xamarin, ios, android, uwp, xamarin.forms, LaavorDivider, Laavor
+      Divider
     </PackageTags>
-    <Title>Divider for Xamarin (Android, iOS, UWP)</Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Title>Divider for Xamarin</Title>
+    <Summary>UI Controls Xamarin Forms</Summary>
     <Description>
-      [Xamarin]A nice separator with dash functionality and text and image inside optionally, being automatically scalable.
+      Divider
     </Description>
 
 
-    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
-    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
-    <Copyright>Copyright 2022</Copyright>
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">

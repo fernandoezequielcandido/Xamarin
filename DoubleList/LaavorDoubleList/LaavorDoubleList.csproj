@@ -28,23 +28,23 @@
     <PackageIcon>Icon.png</PackageIcon>
     
       
-    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes>
     
     </PackageReleaseNotes>
     
-    <PackageTags>Double List, DoubleList, Double Items, Items Selection, Items Select, Select, SelectList, ListSelect, List Select, MultiSelect, Multi Select, Multiple Selection, MultipleSelect, MultipleChoise, MultipleChosen, xamarin, ios, android, uwp, xamarin.forms, plugin, Laavor</PackageTags>
+    <PackageTags>Double List</PackageTags>
 
-    <Title>Double List for Xamarin (Android, iOS, UWP)</Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Title>Double List for Xamarin</Title>
+    <Summary>UI Controls Xamarin Forms</Summary>
     <Description>
-      [Xamarin]Double List an easy and elegant way to select multiple items and at the same time see what is not selected.
+      [Xamarin] Double List
     </Description>
 
-    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
-    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
-    <Copyright>Copyright 2022</Copyright>
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
 
   </PropertyGroup>
 

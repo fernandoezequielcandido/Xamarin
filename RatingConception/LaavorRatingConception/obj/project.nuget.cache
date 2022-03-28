@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4ZKssXQo/qcDOFdim2WcJFx8WprXwV2IL21u17GxXq8aub2x/MpN4D9xXdLzll/hup7TxMQB0EVtxtUxqmuHqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ferna\\OneDrive\\Documentos\\GitHub\\Xamarin\\RatingConception\\LaavorRatingConception\\LaavorRatingConception.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\xamarin.forms\\4.0.0.425677\\xamarin.forms.4.0.0.425677.nupkg.sha512"
+  ],
+  "logs": []
+}

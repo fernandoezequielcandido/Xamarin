@@ -26,27 +26,27 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>Icon.png</PackageIcon>
 
-    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes>
 
     </PackageReleaseNotes>
 
     <PackageTags>
-      textbox, textboxlabel, textbox with label, textboxlabel, inputlabel, inputwithlabel, input,  input with label, textbox xamarin, inputxamarin, inputwithlabelxamarin, xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, LaavorTextbox, LaavorInput, inputLaavor, Laavor
+      Textbox
     </PackageTags>
 
-    <Title>InputWithLabel for Xamarin (Android, iOS, UWP)</Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Title>TextBox for Xamarin</Title>
+    <Summary>UI Controls Xamarin Forms</Summary>
     <Description>
-      An easy and practical InputWithLabel with a unique functionality. Contains several properties ColorUI in Left and Right labels, Width, Height and anothers.
+      InputWithLabel
     </Description>
 
 
 
-    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
-    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
-    <Copyright>Copyright 2022</Copyright>
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">

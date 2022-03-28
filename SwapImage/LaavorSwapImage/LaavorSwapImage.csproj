@@ -25,24 +25,24 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>Icon.png</PackageIcon>
     
-    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes>
       Update.
     </PackageReleaseNotes>
     
-    <PackageTags>swap, swapimage, changeimage, change image, xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, laavor</PackageTags>
+    <PackageTags>Swap Image</PackageTags>
 
-    <Title>Swap Image for Xamarin (Android, iOS, UWP)</Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Title>Swap Image for Xamarin</Title>
+    <Summary>UI Controls Xamarin Forms</Summary>
     <Description>
-      Swap Image along makes it easy to replace images without reloading the page(Screen).
+      Swap Image
     </Description>
 
 
-    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
-    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
-    <Copyright>Copyright 2022</Copyright>
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">

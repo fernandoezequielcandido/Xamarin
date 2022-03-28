@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "x/zghwxViY9Zyx+2gU0c2nEB/qtKLa1uRqW9I72IPzNA2Kp43W0Gl9YVZLNGy5e7uY8YlYN6/MaMkVR238hEtw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ferna\\OneDrive\\Documentos\\GitHub\\Xamarin\\Divider\\LaavorDivider\\LaavorDivider.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
+  ],
+  "logs": []
+}

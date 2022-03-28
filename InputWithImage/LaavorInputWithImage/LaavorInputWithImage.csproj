@@ -25,24 +25,24 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>Icon.png</PackageIcon>
     
-    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes>
       
     </PackageReleaseNotes>
     <PackageTags>
-      textbox, textboxImage, textboxautoImage, textbox with auto image, textbox with image, textboximage, inputautoimage, inputwithautoimage, inputimage, inputwithimage, input,  input with image, textbox xamarin, inputxamarin, inputwithimagexamarin, xamarin, ios, android, mvvm, xamarin.forms, plugin, LaavorTextbox, LaavorInput, inputLaavor, Laavor
+      TexBox
     </PackageTags>
 
-    <Title>InputWithImage for Xamarin (Android, iOS)</Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS) to give productivity to your project</Summary>
+    <Title>TextBox for Xamarin</Title>
+    <Summary>UI Controls Xamarin Forms</Summary>
     <Description>
-      Input/TextBox internal with Image(User image and Default Image).
+      TextBox
     </Description>
 
-    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
-    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
-    <Copyright>Copyright 2022</Copyright>
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candid</Authors>
+    <Copyright></Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">

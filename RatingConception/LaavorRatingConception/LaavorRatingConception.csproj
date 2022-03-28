@@ -26,10 +26,10 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>Icon.png</PackageIcon>
 
-    <PackageProjectUrl>https://github.com/laavor/Xamarin/blob/main/CandidoLaavor_RatingConception.pdf</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes>
-		Removed the DesignType to give greater stability, serves only as an example as possible product, if necessary use RatingImage
+		
 	</PackageReleaseNotes>
     <PackageTags>Rating Xamarin</PackageTags>
 

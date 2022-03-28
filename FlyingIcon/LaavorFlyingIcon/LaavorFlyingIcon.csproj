@@ -29,18 +29,18 @@
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes></PackageReleaseNotes>
     
-    <PackageTags>FlyingIcon, Icon, Flying Icon, FlyingIconLaavor, Laavor, Flying Icon Laavor, IconLaavor, Icon Laavor, Laavor Icon</PackageTags>
+    <PackageTags>FlyingIcon</PackageTags>
 
-    <Title>Laavor Flying Icon for Xamarin (Android, iOS, UWP)</Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Title>Flying Icon for Xamarin</Title>
+    <Summary>UI Controls Xamarin Forms</Summary>
     <Description>
-      An easy and practical Flying Icon. Contains several properties.
+      Flying Icon
     </Description>
 
 
-    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
-    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
-    <Copyright>Copyright 2022</Copyright>
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candid</Authors>
+    <Copyright></Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">

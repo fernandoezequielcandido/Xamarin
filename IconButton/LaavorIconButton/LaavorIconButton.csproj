@@ -26,25 +26,25 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>Icon.png</PackageIcon>
     
-    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes>
     
     </PackageReleaseNotes>
     
     <PackageTags>
-      icon, button icon, icon button, iconbutton, buttonicon, button, iconxamarin,  buttonxamarin, button xamarin, buttonimage, button image, xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, LaavorButton, image button, imagebutton
+      IconButton
     </PackageTags>
 
-    <Title>IconButton for Xamarin (Android, iOS, UWP)</Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Title>IconButton for Xamarin</Title>
+    <Summary>UI Controls Xamarin Forms</Summary>
     <Description>
-      An easy and practical icon button with a unique and beautiful design. Contains several properties ColorUI, Width, Height and type.
+      Icon Button
     </Description>
 
-    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
-    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
-    <Copyright>Copyright 2022</Copyright>
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">

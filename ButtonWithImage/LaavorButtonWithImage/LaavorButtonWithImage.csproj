@@ -34,17 +34,18 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>Icon.png</PackageIcon>
     
-    <PackageTags>button, buttonxamarin, button xamarin, buttonwithimage, button with image, xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, LaavorButton, image button, imagebutton</PackageTags>
-    <Title>Button With Image for Xamarin (Android, iOS, UWP) </Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <PackageTags>Button With Image</PackageTags>
+    <Title>Button With Image</Title>
+    <Summary>UI Controls Xamarin</Summary>
     <Description>
       Easy to use with an internal icon of your choice. Contains several properties.
     </Description>
 
 
-  <Owners>Fernando Ezequiel Candido, Laavor</Owners>
-    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
-    <Copyright>Copyright 2022</Copyright>    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>    
+  <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">

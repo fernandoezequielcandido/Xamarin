@@ -26,7 +26,7 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>Icon.png</PackageIcon>
 
-    <PackageProjectUrl>https://github.com/laavor/Xamarin</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes>
       - Correction of the description
@@ -43,7 +43,7 @@
 
     <Owners>Fernando Ezequiel Candido</Owners>
     <Authors>Fernando Ezequiel Candido</Authors>
-    <Copyright>Copyright 2022</Copyright>
+    <Copyright>2022</Copyright>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 

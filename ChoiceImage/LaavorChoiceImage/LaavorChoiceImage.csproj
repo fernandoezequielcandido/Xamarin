@@ -27,7 +27,7 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>Icon.png</PackageIcon>
     
-    <PackageProjectUrl>https://github.com/laavor/Xamarin/blob/main/CandidoLaavor_ChoiceImage.pdf</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes>
       Change of the license of use and centralization of the component.

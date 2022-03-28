@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gp5h3Y9FFAygXdeym/XCCXGBymqKCNFd2SBLFLPSlGAl3ksRWvnxB1EVQXDooE8XSMiI9acpUxPm7f3JpH2vYg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ferna\\OneDrive\\Documentos\\GitHub\\Xamarin\\Swap\\LaavorSwap\\LaavorSwap.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
+  ],
+  "logs": []
+}

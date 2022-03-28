@@ -26,23 +26,23 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageIcon>Icon.png</PackageIcon>
     
-    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes>
     
     </PackageReleaseNotes>
     
-    <PackageTags>CollapseBox, CollapseLaavor, Collapse, Collapsing Toolbar, Collapsing, Toolbar, Expander Content, ExpanderContent, Expander, xamarin, ios, android, uwp, xamarin.forms, plugin, LaavorCollapseBox, Laavor</PackageTags>
-    <Title>CollapseBox Laavor for Xamarin (Android, iOS, UWP) </Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <PackageTags>Expander</PackageTags>
+    <Title>Expander for Xamrin</Title>
+    <Summary>UI Controls Xamarin</Summary>
     <Description>
-      A beautiful, elegant and easy-to-use CollapseBox (which shows and hides content with a single click), with multiple colors in title available.
+      
     </Description>
 
 
-    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
-    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
-    <Copyright>Copyright 2022</Copyright>
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">

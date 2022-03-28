@@ -29,16 +29,16 @@
     <PackageProjectUrl>http://laavor.com</PackageProjectUrl>
     <PackageReleaseNotes></PackageReleaseNotes>
 
-    <PackageTags>icon Fit, icon Visual Fit, button icon Fit, icon button, iconbutton, buttonicon, button, iconxamarin,  buttonxamarin, button xamarin, buttonimage, button image, xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, LaavorButton, image button, imagebutton</PackageTags>
+    <PackageTags>Icon Fit</PackageTags>
     
-    <Title>Icon Button Fit for Xamarin (Android, iOS, UWP)</Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
-    <Description>An easy and practical icon button with a unique and beautiful design (Fit). Contains several properties IconType, ColorUI, Width, Height and type.</Description>
+    <Title>Icon Button Fit for Xamarin</Title>
+    <Summary>UI Controls Xamarin Forms</Summary>
+    <Description>Icon</Description>
 
 
-    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
-    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
-    <Copyright>Copyright 2022</Copyright>
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">

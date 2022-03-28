@@ -22,24 +22,24 @@
 
     <LangVersion>7.1</LangVersion>
 
-    <PackageProjectUrl>www.laavor.com</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <!--<RepositoryUrl>LINK TO PROJECT</RepositoryUrl>-->
     <PackageReleaseNotes>
 
     </PackageReleaseNotes>
-    <PackageTags>swap, swapimage, swapcontent, contentnavigator, navigator, imagenavigator, image navigator, content navigator, changeimage, change image, changecontent, change content, xamarin, ios, android, uwp, mvvm, xamarin.forms, plugin, LaavorRatingSwap, rating star, rating, swap, laavor</PackageTags>
+    <PackageTags>Swap Image</PackageTags>
 
-    <Title>Swap (Image, Label, Content Navigator, Image Navigator) for Xamarin (Android, iOS, UWP)</Title>
-    <Summary>UI Controls Xamarin Forms (Android, iOS, UWP) to give productivity to your project</Summary>
+    <Title>Swap(Content Navigator) for Xamarin</Title>
+    <Summary>UI Controls Xamarin Forms</Summary>
     <Description>
-      Swap Image along with Swap Label makes it easy to replace texts and images without reloading the page, navigator image and content are an easy way to create a different navigation.
-    </Description>
+		Swap(Content Navigator)
+	</Description>
 
 
 
-    <Owners>Fernando Ezequiel Candido, Laavor</Owners>
-    <Authors>Fernando Ezequiel Candido, Laavor.com</Authors>
-    <Copyright>Copyright 2022</Copyright>
+    <Owners>Fernando Ezequiel Candido</Owners>
+    <Authors>Fernando Ezequiel Candido</Authors>
+    <Copyright></Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">

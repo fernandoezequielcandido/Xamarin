@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rs/4k6Uel4Iyh5E2hanOteg6S5ATOXyoD+TiD8dsBO9accNHZtRTB8r58siiZ/sVk76N2VkVn9Y4CZIyetqUgQ==",
+  "dgSpecHash": "P432LCscGNmxT0kG6Ras0u9H7V1I0GzNJQk49kRiESX83H9z2nkOqLaAe4eR/cIPIxEVjTw60LPt7wBFsN+qYg==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\Compiled\\LaavorAccordion\\LaavorAccordion\\LaavorAccordion.csproj",
+  "projectFilePath": "C:\\Users\\ferna\\OneDrive\\Documentos\\GitHub\\Xamarin\\Accordion\\LaavorAccordion\\LaavorAccordion.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
